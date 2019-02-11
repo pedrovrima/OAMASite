@@ -1,0 +1,252 @@
+body {
+  background-color: #FFCC00;
+  padding: 1em;
+  margin: 0;
+  overflow-x: hidden;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+
+.wholesite{
+  margin-left: 5em;
+  width: 150em;
+  overflow-x: hidden;
+
+}
+
+.oqoama h2 {
+  padding: 0;
+  margin: 0;
+}
+
+/* The side navigation menu */
+.sidenav {
+  padding-left: 2em;
+margin: 0;
+ height: 100%; /* 100% Full-height */
+ width: 2em; /* 0 width - change this with JavaScript */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Stay on top */
+ top: 0; /* Stay at the top */
+ left: 0;
+ background-color: white; /* Black*/
+ overflow-x: hidden; /* Disable horizontal scroll */
+ padding-top: 15em; /* Place content 60px from the top */
+ transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+ padding: .5em .5em .5em 1.5em;
+ text-decoration: none;
+ font-size: 1em;
+ color: #818181;
+ display: block;
+ transition: 0.3s;
+}
+
+.sidenav li {
+
+  padding: .2em .2em .2em 1.5em;
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+ width:10em;
+}
+
+.sidenav ul{
+margin-top: 5em;
+
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+ color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+
+.logohold{
+  height: .5em;
+  position: absolute;
+ top: 1em;
+ right: 0;
+ margin-left: 5em;
+
+
+}
+
+.logohold .logo {
+  width: 3em;
+  background-color: white;
+  height: auto;
+
+}
+
+
+.sidenav .menu {
+position: absolute;
+top: 1em;
+right: 2.2em;
+
+}
+
+
+
+#main{
+  transition: margin-left .5s;
+
+}
+.open{
+  right:.7em;
+  position:absolute;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+#ajude{
+background-color: #FF69B4;
+width:100%;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale( .75);
+  }
+  2% {
+    transform: scale( 1);
+  }
+  4% {
+    transform: scale( .75);
+  }
+  6% {
+    transform: scale( 1);
+  }
+  8% {
+    transform: scale( .75);
+  }
+  10% {
+    transform: scale( 1);
+  }
+}
+
+#heart {
+  margin-left: 5.4em;
+  display: inline-block;
+  position: absolute;
+  width: 1.7em;
+  height: 1em ;
+  animation: heartbeat 10s infinite;
+}
+
+#heart:before,
+#heart:after {
+  position: absolute;
+  content: "";
+  left: .75em;
+  top: 0;
+  width: .75em;
+  height: 1.2em;
+  background: #FF1493;
+  -moz-border-radius: .75em .75em 0 0;
+  border-radius: .75em .75em 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+#heart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+.restcontainer{
+  width: 73em;
+  background-color: #fff6;
+  padding: 2em;
+
+}
+
+
+.homecontainer {
+
+  height: 35em;
+  display: grid;
+grid-column-gap: 3em;
+  grid-template-columns: 35% 15% 10% 25%;
+  grid-template-rows: 33% 13% auto 5%;
+}
+
+.oqoama{
+  background-color: #FFF;
+  padding: 2em;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.effort{
+  background-color: #FFF;
+  padding: 2em;
+
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.newstittle{
+
+  font-size: 2em;
+  grid-row-start: 1;
+  grid-row-end: 2 ;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.news{
+  background-color: #FFF;
+  padding: 2em;
+
+  grid-row-start: 2;
+  grid-row-end: 3 ;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+}
+
+.morenews{
+  font-size: 1em;
+  grid-row-start: 4;
+  grid-row-end: 5 ;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+}
+
+.morenews p{
+  postion:absolute;
+  right:0;
+
+}
