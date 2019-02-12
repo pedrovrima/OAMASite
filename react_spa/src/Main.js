@@ -8,6 +8,7 @@ import {
 import Home from "./Home";
 import Stuff from "./Stuff";
 import Contact from "./Contact";
+import Equipe from "./Equipe";
 
 
 
@@ -47,6 +48,8 @@ document.getElementById("main").style.marginLeft = "250px";
 
             <li><NavLink to="/stuff">Stuff</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
+            <li><NavLink to="/equipe">Equipe</NavLink></li>
+
             <li id="ajude"><NavLink to="/ajude">Ajude
             <div id="heart"></div>
             </NavLink></li>
@@ -61,6 +64,7 @@ document.getElementById("main").style.marginLeft = "250px";
           <Route exact path="/" component={Home}/>
           <Route path="/stuff" component={Stuff}/>
           <Route path="/contact" component={Contact}/>
+          <Route path="/equipe" component={Equipe}/>
 
           </div>
 

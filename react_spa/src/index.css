@@ -180,6 +180,7 @@ width:100%;
 }
 
 .restcontainer{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 73em;
   background-color: #fff6;
   padding: 2em;
@@ -204,9 +205,11 @@ grid-column-gap: 3em;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .effort{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #FFF;
   padding: 2em;
 
@@ -226,6 +229,7 @@ grid-column-gap: 3em;
   grid-column-end: 3;
 }
 .news{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #FFF;
   padding: 2em;
 
