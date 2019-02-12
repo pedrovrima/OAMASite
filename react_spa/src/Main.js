@@ -32,12 +32,6 @@ document.getElementById("main").style.marginLeft = "250px";
 };
 
 
-var hamburger = document.getElementsByClassName(".hamburger")
-
-function EventHamb(e, hamburger) {
-   e.preventDefault();
-   hamburger.setState({className: " is-active"});
-   }
 
 
     return (
@@ -59,7 +53,7 @@ function EventHamb(e, hamburger) {
 
           </ul>
           <div class="open">
-          <span className="hamburger" onClick={EventHamb}>&#9776;</span>
+          <span className="hamburger" onClick={OpenNav}>&#9776;</span>
           </div>
 
           </div>
