@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import {SectionsContainer, Section, Header, Footer} from 'react-fullpage';
+
+
 import {
   Route,
   NavLink,

@@ -22,13 +22,4 @@ const Fullpage = () => (
   />
 );
 
-class Equipe extends Component {
-render(){
-return(
-    <Fullpage />
-)
-
-}
-}
-
-export default Equipe;
+  ReactDOM.render(<Fullpage />, document.getElementById('react-root'));
