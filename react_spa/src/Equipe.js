@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import ReactFullpage from '@fullpage/react-fullpage';
+import Colab from "./colabs";
+
+
 
 const Fullpage = () => (
   <ReactFullpage
@@ -8,13 +11,24 @@ const Fullpage = () => (
       return (
         <ReactFullpage.Wrapper>
           <div className="section">
-            <p>Section 1 (welcome to fullpage.js)</p>
             <button onClick={() => fullpageApi.moveSectionDown()}>
               Click me to move down
             </button>
           </div>
           <div className="section">
-            <p>Section 2</p>
+          <h1> Colaboradores </h1>
+          <div className="restcontainer">
+          <div className="colabGrid">
+
+          <Colab name="Renata Miwa" func="Designer" link="www.teste.com" />
+          <Colab name="Julia Rodrigues" func="Fotógrafa" link="www.teste.com" />
+          <Colab name="Simone Coimbra" func="Estilista" link="www.teste.com" />
+          <Colab name="Joaquim Mendonça" func="Consultor Botânico" link="www.teste.com" />
+          <Colab name="Dirlene Martins" func="Revisora de Português" link="www.teste.com" />
+          <Colab name="Ellen Campbell" func="Revisora de Inglễs" link="www.teste.com" />
+          <Colab name="Eduardo Schultz" func="Ornitólogo e Fotógrafo" link="www.teste.com" />
+          </div>
+            </div>
           </div>
         </ReactFullpage.Wrapper>
       );

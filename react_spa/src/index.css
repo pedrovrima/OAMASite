@@ -58,7 +58,7 @@ margin: 0;
 }
 
 .sidenav ul{
-margin-top: 5em;
+margin-top: 9em;
 
 }
 /* When you mouse over the navigation links, change their color */
@@ -183,7 +183,8 @@ width:100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 73em;
   background-color: #fff6;
-  padding: 2em;
+  padding: 1em;
+  margin-left: 1.2em;
 
 }
 
@@ -253,4 +254,51 @@ grid-column-gap: 3em;
   postion:absolute;
   right:0;
 
+}
+
+.colabsFols{
+    height: auto;
+    width:  12em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.colabsFols h1{
+  font-weight: bold;
+  font-size: 1em;
+  margin:0;
+}
+
+
+
+.colabsFols h2{
+  font-style: italic;
+  font-weight: normal;
+  font-size: .8em;
+  padding-top: .1em;
+  margin: 0;
+
+}
+
+.colabsFols p{
+  font-weight: normal;
+  font-size: .8em;
+  padding-top: .1em;
+  margin: 0;
+
+}
+
+
+.colabsFols img{
+  border-radius: 50%;
+  height:  10em;
+  width:  10em;
+}
+
+
+.colabGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(5em, 15em));
+  grid-gap: .1em;
 }
