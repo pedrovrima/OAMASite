@@ -256,6 +256,16 @@ grid-column-gap: 3em;
 
 }
 
+
+.equipeFols{
+    height: auto;
+    width:  12em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
 .colabsFols{
     height: auto;
     width:  12em;
