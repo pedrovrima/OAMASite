@@ -49,11 +49,11 @@ document.getElementById("main").style.marginLeft = "250px";
             <a href="javascript:void(0)" class="closebtn" onClick={CloseNav}>&times;</a>
             <ul class="menu">
 
-            <li><NavLink to="/stuff">Stuff</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
-            <li><NavLink to="/equipe">Equipe</NavLink></li>
+            <li onClick={CloseNav}><NavLink to="/stuff">Stuff</NavLink></li>
+            <li onClick={CloseNav}><NavLink to="/contact">Contact</NavLink></li>
+            <li onClick={CloseNav}><NavLink to="/equipe" >Equipe</NavLink></li>
 
-            <li id="ajude"><NavLink to="/ajude">Ajude
+            <li id="ajude" onClick={CloseNav}><NavLink to="/ajude">Ajude
             <div id="heart"></div>
             </NavLink></li>
 
