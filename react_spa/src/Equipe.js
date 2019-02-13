@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import ReactFullpage from '@fullpage/react-fullpage';
-import Colab from "./colabs";
+import { Colab, PEquipe } from "./equipe";
 
 
 
@@ -15,7 +15,23 @@ const Fullpage = () => (
               Click me to move down
             </button>
           </div>
+
           <div className="section">
+          <h1>Equipe OAMa</h1>
+          <div className="dummycontainer">
+
+          <div className="equipeGrid">
+          <PEquipe name="Pedro Martins" text="Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto "  />
+          <PEquipe name="Raquel Justo" text=""  />
+          <PEquipe name="Luiza Figueira" text=""  />
+            </div>
+
+          </div>
+          </div>
+
+          <div className="section">
+
+
           <h1> Colaboradores </h1>
           <div className="restcontainer">
           <div className="colabGrid">

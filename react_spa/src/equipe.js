@@ -5,7 +5,8 @@ function FigPath(name){
 }
 
 
-function Colab(props){
+export function Colab(props){
+
 
 
 return(
@@ -20,7 +21,23 @@ return(
 
 }
 
-export default Colab;
+export function PEquipe(props){
+
+
+return(
+  <div className="equipeFols">
+    <img src= {FigPath(props.name)}/>
+    <div className="equipetext">
+    <h1>{props.name}</h1>
+    <p>{props.text}</p>
+    </div>
+  </div>
+
+)
+
+}
+
+
 
 
 

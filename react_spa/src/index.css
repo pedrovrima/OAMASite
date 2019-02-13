@@ -185,6 +185,8 @@ width:100%;
   background-color: #fff6;
   padding: 1em;
   margin-left: 1.2em;
+  -moz-border-radius: 5%;
+  border-radius: 1em;
 
 }
 
@@ -199,6 +201,7 @@ grid-column-gap: 3em;
 }
 
 .oqoama{
+  border-radius: 3%;
   background-color: #FFF;
   padding: 2em;
 
@@ -257,13 +260,6 @@ grid-column-gap: 3em;
 }
 
 
-.equipeFols{
-    height: auto;
-    width:  12em;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
 
 
 .colabsFols{
@@ -306,9 +302,72 @@ grid-column-gap: 3em;
   width:  10em;
 }
 
+.equipeFols{
+  max-height: 35em;
+  width:  auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  float: center;
+}
+
+
+
+.equipeFols img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  height:  12em;
+  width:  12em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -2.2em;
+}
+
+
+
+.equipeFols h1{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.equipeFols p{
+  text-align: justify;
+
+}
 
 .colabGrid{
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(5em, 15em));
-  grid-gap: .1em;
+  grid-gap: .3em;
+}
+
+.equipeGrid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3em;
+
+}
+
+
+.dummycontainer{
+  width: 73em;
+  padding: 1em;
+  margin-left: 1.2em;
+
+}
+
+
+
+.equipetext{
+  border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 20em;
+  height: auto;
+
+  background-color: #fff6;
+  padding: 2em 1em 1em 1em;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
