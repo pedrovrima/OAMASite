@@ -10,13 +10,19 @@ const Fullpage = () => (
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>
-          <div className="section">
-            <button onClick={() => fullpageApi.moveSectionDown()}>
-              Click me to move down
-            </button>
-          </div>
+          <div className="section" id="section1">
+          <div className="headersection">
 
+          <h1 id="section1Header">Quem Somos</h1>
+          <div className="nosizecontainer">
+          <p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
+          </div>
+          </div>
+</div>
           <div className="section">
+          <button onClick={() => fullpageApi.moveSectionDown()}>
+          Click me to move down
+          </button>
           <h1>Equipe OAMa</h1>
           <div className="dummycontainer">
 
@@ -46,6 +52,18 @@ const Fullpage = () => (
           </div>
             </div>
           </div>
+
+          <div className="section">
+          <h1> Comitê Científico </h1>
+
+          </div>
+
+
+      <div className="section">
+        <h1> Parceiros </h1>
+
+                    </div>
+
         </ReactFullpage.Wrapper>
       );
     }}

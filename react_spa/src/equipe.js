@@ -29,7 +29,7 @@ return(
     <img src= {FigPath(props.name)}/>
     <div className="equipetext">
     <h1>{props.name}</h1>
-    <p><a>{props.text}</a></p>
+    <p>{props.text}</p>
     </div>
   </div>
 
