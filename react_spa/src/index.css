@@ -11,8 +11,8 @@ h1, h2, p, ul, li {
 .wholesite{
   margin-left: 5em;
   width: 150em;
-  overflow-x: hidden;
 
+  overflow-x: hidden;
 }
 
 .oqoama h2 {
@@ -25,7 +25,7 @@ h1, h2, p, ul, li {
   padding-left: 2em;
 margin: 0;
  height: 100%; /* 100% Full-height */
- width: 2em; /* 0 width - change this with JavaScript */
+ width: 3%; /* 0 width - change this with JavaScript */
  position: fixed; /* Stay in place */
  z-index: 1; /* Stay on top */
  top: 0; /* Stay at the top */
@@ -36,6 +36,25 @@ margin: 0;
  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
+/* The side navigation menu */
+.mobinav {
+  margin: 0;
+ height: 10%; /* 100% Full-height */
+ max-height: 3em;
+ width: 100%; /* 0 width - change this with JavaScript */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Stay on top */
+ top: 0; /* Stay at the top */
+ left: 0;
+ background-color: white; /* Black*/
+ transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+ overflow-x: hidden; /* Disable horizontal scroll */
+ overflow-y: hidden; /* Disable horizontal scroll */
+
+ }
+
+
+
 /* The navigation menu links */
 .sidenav a {
  padding: .5em .5em .5em 1.5em;
@@ -45,6 +64,32 @@ margin: 0;
  display: block;
  transition: 0.3s;
 }
+
+
+.mobinav a {
+ text-decoration: none;
+ font-size: 1em;
+ color: #818181;
+ display: block;
+ transition: 0.3s;
+}
+
+.mobinav ul {
+  margin-left: 5%;
+  padding-left: 0;
+}
+
+.mobinav li {
+  padding-top: 2%;
+  padding-bottom:2%;
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
 
 .sidenav li {
 
@@ -59,7 +104,6 @@ margin: 0;
 
 .sidenav ul{
 margin-top: 9em;
-
 }
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
@@ -79,12 +123,37 @@ margin-top: 9em;
 }
 
 .logohold .logo {
+
   width: 3em;
   background-color: white;
   height: auto;
 
 }
 
+
+.Mobilogohold{
+height: 10%;
+width: 20%;
+ margin-left: .7em;
+ margin-top: .7em;
+   display: inline-block;
+}
+
+
+.Mobilogohold .mobilogo {
+  background-color: white;
+  max-height: 2em;
+  max-width: 100%;
+
+
+}
+
+.Mobilogohold .mobihamburger{
+  font-size:2em;
+  position: absolute;
+  right: 1em;
+  margin-top:-1em;
+}
 
 .sidenav .menu {
 position: absolute;
@@ -198,18 +267,27 @@ width:100%;
 grid-column-gap: 3em;
   grid-template-columns: 35% 15% 10% 25%;
   grid-template-rows: 33% 13% auto 5%;
+  align-items: center;
+text-align: center;
 }
 
 .oqoama{
   border-radius: 3%;
   background-color: #FFF;
   padding: 2em;
-
+    align-items: center;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 4;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.oqoama img{
+  max-width: 75%;
+  object-fit:contain;
+  overflow: hidden;
+  margin-bottom: 5%;
 }
 
 .effort{
@@ -370,4 +448,21 @@ grid-column-gap: 3em;
   margin-left: auto;
   margin-right: auto;
 
+}
+
+
+.projectGrid{
+  display: grid;
+  grid-template-rows: 5;
+  grid-gap: .2em;
+  height: 85%;
+  width:80em;
+}
+
+
+
+.projectFols{
+    height: auto;
+    width:  100%;
+      background-color: gray;
 }
