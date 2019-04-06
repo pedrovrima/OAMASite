@@ -14,6 +14,7 @@ import Projetos from "./Projetos";
 import Equipe from "./Equipe";
 import DeskMenu from "./DeskMenu";
 import MobiMenu from "./MobiMenu";
+import MobiHome from "./HomeMobi";
 
 
 
@@ -26,24 +27,35 @@ class Main extends Component {
     return (
  <HashRouter>
         <div>
-        <div className="wholesite">
             <MediaQuery query="(min-device-width: 800px)">
-          <DeskMenu/>
+            <div className="wholesite">
+            <DeskMenu/>
+            <div id="main">
+            <Route exact path="/" component={Home}/>
+            <Route path="/stuff" component={Stuff}/>
+            <Route path="/projetos" component={Projetos}/>
+            <Route path="/equipe" component={Equipe}/>
+
+            </div>
+            </div>
           </MediaQuery>
           <MediaQuery query="(max-device-width: 799px)">
-          <MobiMenu/>
+          <div className="mobiwholesite">
 
-        </MediaQuery>
+          <MobiMenu/>
           <div id="main">
-          <Route exact path="/" component={Home}/>
+          <Route exact path="/" component={MobiHome}/>
           <Route path="/stuff" component={Stuff}/>
           <Route path="/projetos" component={Projetos}/>
           <Route path="/equipe" component={Equipe}/>
 
           </div>
+          </div>
+        </MediaQuery>
 
 
-</div>
+
+
 
         </div>
 

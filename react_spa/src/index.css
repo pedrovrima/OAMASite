@@ -15,6 +15,14 @@ h1, h2, p, ul, li {
   overflow-x: hidden;
 }
 
+
+.mobiwholesite{
+  margin-top: 10%;
+  width: 100%;
+
+  overflow-x: hidden;
+}
+
 .oqoama h2 {
   padding: 0;
   margin: 0;
@@ -166,8 +174,8 @@ right: 2.2em;
 
 #main{
   transition: margin-left .5s;
-
 }
+
 .open{
   right:.7em;
   position:absolute;
@@ -269,6 +277,61 @@ grid-column-gap: 3em;
   grid-template-rows: 33% 13% auto 5%;
   align-items: center;
 text-align: center;
+}
+
+.Mobimorenews{
+  margin:auto;
+  width: 95%;
+  border-radius: 5%;
+  background-color: #FFF;
+  padding: 1%;
+  align-items: center;
+
+}
+
+.Mobimorenews h1{
+  font-size: 110%;
+}
+
+.mobiFirst{
+
+display: grid;
+grid-gap: 3%;
+grid-template-rows:85% auto;
+  align-items: center;
+text-align: center;
+margin-bottom: 10%;
+
+}
+
+.mobiEntry{
+  padding: 3%;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin:auto;
+  width: 90%;
+  border-radius: 3%;
+  background-color: #FFF;
+  align-items: center;
+}
+
+.mobiEntry img{
+  max-width: 90%;
+  object-fit:contain;
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+.mobiEntry h1{
+  text-align: center;
+  font-size: 150%;
+}
+
+.mobiEntry span{
+  text-align: justify;
+  font-size: 100%;
 }
 
 .oqoama{
@@ -454,7 +517,7 @@ text-align: center;
 .projectGrid{
   display: grid;
   grid-template-rows: 5;
-  grid-gap: .2em;
+  grid-gap: 2%;
   height: 85%;
   width:80em;
 }
@@ -462,7 +525,25 @@ text-align: center;
 
 
 .projectFols{
-    height: auto;
-    width:  100%;
-      background-color: gray;
+  border-radius: 1em;
+  width: 90%;
+  height: auto;
+  padding-left: 5%;
+  background-color: #fff6;
+}
+
+
+.plussign{
+  width:10%;
+  height:auto;
+}
+
+.heightman{
+  max-height: 75%;
+}
+
+#teste img{
+  max-width:10%;
+  height:auto;
+
 }

@@ -3,6 +3,9 @@ import MediaQuery from 'react-responsive';
 
 class Home extends Component {
 
+
+
+
   render() {
     function morenewsClick(e) {
       e.preventDefault();
@@ -11,8 +14,7 @@ class Home extends Component {
       document.getElementById("main").style.marginLeft = "-85em";
     }
 
-    function DeskEntry  (sect) {
-      console.log(sect.sect.title)
+    function DeskEntry  (sect, style) {
 
     return(
     <div>
@@ -30,7 +32,7 @@ class Home extends Component {
   console.log(sessoes)
 
     return (
-
+      
       <div className="homecontainer">
       <div className="oqoama">
       <DeskEntry sect={sessoes}/>
@@ -52,7 +54,7 @@ class Home extends Component {
       </div>
 
       <div className="morenews" onClick={morenewsClick}>
-      <p>>></p>
+      <p></p>
       </div>
       </div>
 
