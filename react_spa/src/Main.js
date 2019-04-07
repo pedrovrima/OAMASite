@@ -15,6 +15,7 @@ import Equipe from "./Equipe";
 import DeskMenu from "./DeskMenu";
 import MobiMenu from "./MobiMenu";
 import MobiHome from "./HomeMobi";
+import MobiEquipe from "./MobiEquipe";
 
 
 
@@ -47,7 +48,7 @@ class Main extends Component {
           <Route exact path="/" component={MobiHome}/>
           <Route path="/stuff" component={Stuff}/>
           <Route path="/projetos" component={Projetos}/>
-          <Route path="/equipe" component={Equipe}/>
+          <Route path="/equipe" component={MobiEquipe}/>
 
           </div>
           </div>

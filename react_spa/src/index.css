@@ -482,6 +482,13 @@ margin-bottom: 10%;
   grid-gap: .3em;
 }
 
+
+.MOBIcolabGrid{
+  display: grid;
+  grid-template-columns: repeat(2,minmax(5em, 15em));
+  grid-gap: .3em;
+}
+
 .equipeGrid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -545,5 +552,12 @@ margin-bottom: 10%;
 #teste img{
   max-width:10%;
   height:auto;
+
+}
+
+
+.mobiColab{
+
+
 
 }
