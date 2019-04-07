@@ -10,7 +10,7 @@ export function Colab(props){
 
 
 return(
-  <div className="colabsFols">
+  <div className={props.classN}>
     <img src= {FigPath(props.name)}/>
     <h1>{props.name}</h1>
     <h2>{props.func}</h2>

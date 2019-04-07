@@ -40,15 +40,16 @@ const Fullpage = () => (
 
           <h1> Colaboradores </h1>
           <div className="restcontainer">
+
           <div className="colabGrid">
 
-          <Colab name="Renata Miwa" func="Designer" link="www.teste.com" />
-          <Colab name="Julia Rodrigues" func="Fotógrafa" link="www.teste.com" />
-          <Colab name="Simone Coimbra" func="Estilista" link="www.teste.com" />
-          <Colab name="Joaquim Mendonça" func="Consultor Botânico" link="www.teste.com" />
-          <Colab name="Dirlene Martins" func="Revisora de Português" link="www.teste.com" />
-          <Colab name="Ellen Campbell" func="Revisora de Inglễs" link="www.teste.com" />
-          <Colab name="Eduardo Schultz" func="Ornitólogo e Fotógrafo" link="www.teste.com" />
+          <Colab classN="colabsFols" name="Renata Miwa" func="Designer" link="www.teste.com" />
+          <Colab classN="colabsFols" name="Julia Rodrigues" func="Fotógrafa" link="www.teste.com" />
+          <Colab classN="colabsFols" name="Simone Coimbra" func="Estilista" link="www.teste.com" />
+          <Colab classN="colabsFols" name="Joaquim Mendonça" func="Consultor Botânico" link="www.teste.com" />
+          <Colab classN="colabsFols" name="Dirlene Martins" func="Revisora de Português" link="www.teste.com" />
+          <Colab classN="colabsFols" name="Ellen Campbell" func="Revisora de Inglễs" link="www.teste.com" />
+          <Colab classN="colabsFols" name="Eduardo Schultz" func="Ornitólogo e Fotógrafo" link="www.teste.com" />
           </div>
             </div>
           </div>
