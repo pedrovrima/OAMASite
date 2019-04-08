@@ -39,16 +39,16 @@ const Fullpage = () => (
 
 
           <h1> Colaboradores </h1>
-          <div className="restcontainer">
+          <div className="MOBIrestcontainer">
           <div className="MOBIcolabGrid">
 
-          <Colab name="Renata Miwa" func="Designer" link="www.teste.com" />
-          <Colab name="Julia Rodrigues" func="Fotógrafa" link="www.teste.com" />
-          <Colab name="Simone Coimbra" func="Estilista" link="www.teste.com" />
-          <Colab name="Joaquim Mendonça" func="Consultor Botânico" link="www.teste.com" />
-          <Colab name="Dirlene Martins" func="Revisora de Português" link="www.teste.com" />
-          <Colab name="Ellen Campbell" func="Revisora de Inglễs" link="www.teste.com" />
-          <Colab name="Eduardo Schultz" func="Ornitólogo e Fotógrafo" link="www.teste.com" />
+          <div><Colab classN="MOBIcolabsFols" name="Renata Miwa" func="Designer" link="www.teste.com" /></div>
+          <div><Colab classN="MOBIcolabsFols" name="Julia Rodrigues" func="Fotógrafa" link="www.teste.com" /></div>
+          <div><Colab classN="MOBIcolabsFols" name="Simone Coimbra" func="Estilista" link="www.teste.com" /></div>
+          <div><Colab classN="MOBIcolabsFols" name="Joaquim Mendonça" func="Consultor Botânico" link="www.teste.com" /></div>
+          <div><Colab classN="MOBIcolabsFols" name="Dirlene Martins" func="Revisora de Português" link="www.teste.com" /></div>
+          <div><Colab classN="MOBIcolabsFols" name="Ellen Campbell" func="Revisora de Inglễs" link="www.teste.com" /></div>
+          <div><Colab classN="MOBIcolabsFols" name="Eduardo Schultz" func="Ornitólogo e Fotógrafo" link="www.teste.com" /></div>
           </div>
             </div>
           </div>
