@@ -575,17 +575,20 @@ margin-bottom: 10%;
 .MOBIcolabGrid{
   height: 100%!important;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(20%, 30%) );
+  grid-template-columns:  repeat(auto-fit,minmax(20%, 30%) );
+  widht:100%;
   grid-auto-rows: 30%;
   grid-gap: 3%;
 }
 
 
+
 .MOBIcolabsFols{
     height: 90%;
     text-align: center;
-
   }
+
+
 
 .MOBIcolabsFols h1{
   font-weight: bold;
@@ -617,4 +620,68 @@ margin-bottom: 10%;
   border-radius: 5em;
   height:  auto;
   max-width:90%;
+}
+
+.MOBIdummy{
+  margin-top: 20%;
+  height:70%;
+  width:100%;
+}
+
+.MOBIequipeGrid{
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100%!important;
+  display: grid;
+  grid-template-rows: repeat(1,minmax(30%,20%) );
+  grid-auto-columns: 100%;
+  grid-gap: 3%;
+}
+
+
+
+.MOBIequipetext{
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background-color: #fff6;
+  padding: 2em 1em 1em 1em;
+  display: block;
+  }
+
+.MOBIequipeFols{
+  max-height: 300%;
+  width:  100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  float: center;
+}
+
+
+
+
+.MOBIequipeFols img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  height:  auto;
+  max-width: 20%;
+  display:inline;
+  margin-left:0;
+  margin-right: auto;
+
+}
+
+
+
+.MOBIequipeFols h1{
+  text-align: left;
+  font-size: 100%;
+  
+}
+
+.MOBIequipeFols p{
+  text-align: justify;
+  font-size: 100%;
 }

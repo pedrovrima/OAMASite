@@ -25,9 +25,9 @@ export function PEquipe(props){
 
 
 return(
-  <div className="equipeFols">
+  <div className={props.classN}>
     <img src= {FigPath(props.name)}/>
-    <div className="equipetext">
+    <div className={props.classN2}>
     <h1>{props.name}</h1>
     <p>{props.text}</p>
     </div>
@@ -37,6 +37,22 @@ return(
 
 }
 
+
+export function MOBIPEquipe(props){
+
+
+return(
+  <div className={props.classN}>
+    <div className={props.classN2}>
+    <img src= {FigPath(props.name)}/>
+    <h1>{props.name}</h1>
+    <p>{props.text}</p>
+    </div>
+  </div>
+
+)
+
+}
 
 
 

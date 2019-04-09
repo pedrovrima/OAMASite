@@ -20,16 +20,13 @@ const Fullpage = () => (
           </div>
 </div>
           <div className="section">
-          <button onClick={() => fullpageApi.moveSectionDown()}>
-          Click me to move down
-          </button>
-          <h1>Equipe OAMa</h1>
+            <h1>Equipe OAMa</h1>
           <div className="dummycontainer">
 
           <div className="equipeGrid">
-          <PEquipe name="Pedro Martins" text="Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto "  />
-          <PEquipe name="Raquel Justo" text=""  />
-          <PEquipe name="Luiza Figueira" text=""  />
+          <PEquipe classN="equipeGrid" classN2="equipetext" name="Pedro Martins" text="Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto "  />
+          <PEquipe classN="equipeGrid" classN2="equipetext" name="Raquel Justo" text=""  />
+          <PEquipe classN="equipeGrid" classN2="equipetext" name="Luiza Figueira" text=""  />
             </div>
 
           </div>

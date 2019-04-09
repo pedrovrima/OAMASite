@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import ReactFullpage from '@fullpage/react-fullpage';
-import { Colab, PEquipe } from "./equipe";
+import { Colab, MOBIPEquipe } from "./equipe";
 
 
 
@@ -20,19 +20,15 @@ const Fullpage = () => (
           </div>
 </div>
           <div className="section">
-          <button onClick={() => fullpageApi.moveSectionDown()}>
-          Click me to move down
-          </button>
+
           <h1>Equipe OAMa</h1>
-          <div className="dummycontainer">
-
-          <div className="equipeGrid">
-          <PEquipe name="Pedro Martins" text="Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto "  />
-          <PEquipe name="Raquel Justo" text=""  />
-          <PEquipe name="Luiza Figueira" text=""  />
+<div className="MOBIdummy">
+          <div className="MOBIequipeGrid">
+      <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Pedro Martins" text="Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto "  />
+          <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Raquel Justo" text=""  />
+          <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Luiza Figueira" text=""  />
             </div>
-
-          </div>
+</div>
           </div>
 
           <div className="section">
@@ -42,7 +38,7 @@ const Fullpage = () => (
           <div className="MOBIrestcontainer">
           <div className="MOBIcolabGrid">
 
-          <div><Colab classN="MOBIcolabsFols" name="Renata Miwa" func="Designer" link="www.teste.com" /></div>
+          <div><Colab  classN="MOBIcolabsFols" name="Renata Miwa" func="Designer" link="www.teste.com" /></div>
           <div><Colab classN="MOBIcolabsFols" name="Julia Rodrigues" func="Fotógrafa" link="www.teste.com" /></div>
           <div><Colab classN="MOBIcolabsFols" name="Simone Coimbra" func="Estilista" link="www.teste.com" /></div>
           <div><Colab classN="MOBIcolabsFols" name="Joaquim Mendonça" func="Consultor Botânico" link="www.teste.com" /></div>
