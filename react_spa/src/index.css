@@ -555,11 +555,18 @@ margin-bottom: 10%;
 
 .equipeFols h1{
   text-align: center;
-  font-size: 1.5em;
+  font-size: 140%;
 }
 
 .equipeFols p{
   text-align: justify;
+
+}
+
+
+.equipeFols p::first-letter{
+  font-size: 150%;
+
 
 }
 
@@ -594,6 +601,7 @@ margin-bottom: 10%;
   font-weight: bold;
   font-size: 80%;
   margin:0;
+
 }
 
 
@@ -624,30 +632,32 @@ margin-bottom: 10%;
 
 .MOBIdummy{
   margin-top: 20%;
-  height:70%;
+  height:80%;
   width:100%;
 }
 
 .MOBIequipeGrid{
   margin-left: 10%;
   margin-right: 10%;
-  height: 100%!important;
+  height: 90%!important;
   display: grid;
-  grid-template-rows: repeat(1,minmax(30%,20%) );
+  grid-template-rows: repeat(1,minmax(10%,30%) );
   grid-auto-columns: 100%;
-  grid-gap: 3%;
+  grid-gap: 5%;
+  margin-top: -20%;
 }
 
 
 
 .MOBIequipetext{
-  border-radius: 5%;
+  border-radius: 1em;
+  border-top-left-radius:  1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: auto;
-  height: auto;
+  height: 95%;
   overflow: hidden;
   background-color: #fff6;
-  padding: 2em 1em 1em 1em;
+  padding: 5% 5% 5% 5%;
   display: block;
   }
 
@@ -666,22 +676,29 @@ margin-bottom: 10%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 50%;
   height:  auto;
-  max-width: 20%;
+  max-width: 25%;
   display:inline;
-  margin-left:0;
-  margin-right: auto;
+  margin-left:-10%;
+  margin-right: 6%;
+  margin-top: -10%;
+  float:left;
+  	shape-outside:circle();
 
 }
 
 
 
 .MOBIequipeFols h1{
+  margin-left: 20%;
+  margin-top: -2%;
   text-align: left;
   font-size: 100%;
-  
+
 }
 
 .MOBIequipeFols p{
-  text-align: justify;
-  font-size: 100%;
+  margin-top: -1%;
+  margin-left: 0%;
+  text-align: left;
+  font-size: 75%;
 }
