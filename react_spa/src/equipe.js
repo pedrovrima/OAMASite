@@ -5,6 +5,11 @@ function FigPath(name){
 }
 
 
+function AmiFigPath(name){
+  return "/figs/" + name
+}
+
+
 export function Colab(props){
 
 
@@ -57,9 +62,37 @@ return(
 
 
 
+export function MOBIAmigos(props){
 
 
+return(
+  <div className={props.classN}>
+    <div className={props.classN2}>
+    <img src= {FigPath(props.name)}/>
+    <h1>{props.name}</h1>
+    </div>
+  </div>
 
+)
+
+}
+
+
+export function Amigos(props){
+
+
+return(
+  <div className={props.classN}>
+    <a target="_tab" href={props.link}><img src= {AmiFigPath(props.fig)}/></a>
+    <div className={props.classN2}>
+    <h1>{props.name}</h1>
+
+    </div>
+  </div>
+
+)
+
+}
 
 
 

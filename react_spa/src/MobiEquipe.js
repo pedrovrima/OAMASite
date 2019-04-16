@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import ReactFullpage from '@fullpage/react-fullpage';
-import { Colab, MOBIPEquipe } from "./equipe";
+import { Colab, MOBIPEquipe, Amigos } from "./equipe";
 
 
 
@@ -24,9 +24,9 @@ const Fullpage = () => (
           <h1>Equipe OAMa</h1>
 <div className="MOBIdummy">
           <div className="MOBIequipeGrid">
-      <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Pedro Martins" text="Ecólogo com interesse em estatística e dinâmica de populações de aves. Após concluir mestrado pelo Instituto Nacional de Pesquisas da Amazônia (INPA), Pedro se juntou ao programa de monitoramento de aves de longo prazo do Observatório de Aves de Klamath, nos EUA, no qual foi certificado treinador pelo Conselho Norte-Americano de Anilhamento."  />
           <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Raquel Justo" text="Bióloga com mestrado e ênfase em Biologia Animal, especificamente na área de Ornitologia, pela Universidade Federal Rural do Rio de Janeiro. Trabalhando com aves desde 2007, possui ampla experiência em elaboração, execução e coordenação de estudos de impactos ambientais"  />
-          <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Luiza Figueira" text="Bióloga com mestrado em Ecologia pelo Instituto Nacional de Pesquisas da Amazônia (INPA). Trabalha com pesquisa de aves desde 2014, tendo colaborado com diversos projetos, como o Projeto de Dinâmicas Biológicas de Fragmentos Florestais na Amazônia brasileira, o Observatório de Aves da Costa Rica e o Observatório de Aves de Klamath, no Oregon, Estados Unidos."  />
+          <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Luiza Figueira" text="Bióloga com mestrado em Ecologia pelo Instituto Nacional de Pesquisas da Amazônia. Trabalha com pesquisa de aves desde 2014, tendo colaborado com diversos projetos, como os Observatórios de Aves da Costa Rica e de Klamath, no Oregon, Estados Unidos."  />
+          <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Pedro Martins" text="Ecólogo com interesse em estatística e dinâmica de populações de aves. Após concluir seu mestrado, Pedro se juntou ao programa de monitoramento de aves do Observatório de Aves de Klamath, nos EUA, onde foi certificado pelo Conselho Norte-Americano de Anilhamento."  />
             </div>
 </div>
           </div>
@@ -49,16 +49,25 @@ const Fullpage = () => (
             </div>
           </div>
 
+
           <div className="section">
-          <h1> Comitê Científico </h1>
-
-          </div>
+            <h1> Instituições Amigas </h1>
 
 
-      <div className="section">
-        <h1> Parceiros </h1>
+            <div className="MOBIrestcontainer">
+            <div className="MOBIamigosGrid">
 
-                    </div>
+            <Amigos classN="MOBIcolabsFols" name="Observatório de Aves do Instituto Butantã" fig="OAU.jpg" link="https://www.facebook.com/observatoriodeavesibu" />
+            <Amigos classN="MOBIcolabsFols" name="Observatório de Aves da Costa Rica" fig="CRBO.jpg" link="https://www.costaricabirds.org" />
+            <Amigos classN="MOBIcolabsFols" name="Observatório de Aves do Klamath" fig="KBO.png" link="https://www.klamathbird.org" />
+            <Amigos classN="MOBIcolabsFols" name="Mata do Sauá" fig="matadosaua.jpg" link="https://www.instagram.com/matadosaua/" />
+            <Amigos classN="MOBIcolabsFols" name="Silo - Arte e Latitude Rural" fig="SILO.png" link="https://www.silo.org.br" />
+
+
+                        </div>
+    </div>
+    </div>
+
 
         </ReactFullpage.Wrapper>
       );

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import ReactFullpage from '@fullpage/react-fullpage';
-import { Colab, PEquipe } from "./equipe";
+import { Colab, PEquipe, Amigos } from "./equipe";
 
 
 
@@ -51,17 +51,23 @@ const Fullpage = () => (
             </div>
           </div>
 
-          <div className="section">
-          <h1> Comitê Científico </h1>
-
-          </div>
 
 
       <div className="section">
-        <h1> Parceiros </h1>
+        <h1> Instituições Amigas </h1>
+        <div className="restcontainer">
+
+        <div className="colabGrid">
+        <Amigos classN="colabsFols" name="Observatório de Aves do Instituto Butantã" fig="OAU.jpg" link="https://www.facebook.com/observatoriodeavesibu" />
+        <Amigos classN="colabsFols" name="Observatório de Aves da Costa Rica" fig="CRBO.jpg" link="https://www.costaricabirds.org" />
+        <Amigos classN="colabsFols" name="Observatório de Aves do Klamath" fig="KBO.png" link="https://www.klamathbird.org" />
+        <Amigos classN="colabsFols" name="Mata do Sauá" fig="matadosaua.jpg" link="https://www.instagram.com/matadosaua/" />
+        <Amigos classN=" colabsFols" name="Silo - Arte e Latitude Rural" fig="SILO.png" link="https://www.silo.org.br" />
+
 
                     </div>
-
+</div>
+</div>
         </ReactFullpage.Wrapper>
       );
     }}

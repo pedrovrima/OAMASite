@@ -277,8 +277,9 @@ width:100%;
   margin-right: 11.5%;
   -moz-border-radius: 5%;
   border-radius: 1em;
-  height: 75%;
-  overflow: scroll;
+
+  height: 70%;
+  overflow: hidden;
 }
 
 .homecontainer {
@@ -478,11 +479,11 @@ margin-bottom: 10%;
 .equipetext{
   border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 20em;
+  width: 95%;
   height: auto;
 
   background-color: #fff6;
-  padding: 2em 1em 1em 1em;
+  padding: 9% 5% 5% 5%;
     display: block;
   margin-left: auto;
   margin-right: auto;
@@ -555,7 +556,7 @@ margin-bottom: 10%;
 
 .equipeFols h1{
   text-align: center;
-  font-size: 140%;
+  font-size: 150%;
 }
 
 .equipeFols p{
@@ -580,14 +581,25 @@ margin-bottom: 10%;
 
 
 .MOBIcolabGrid{
-  height: 100%!important;
+  max-height: 100%!important;
   display: grid;
   grid-template-columns:  repeat(auto-fit,minmax(20%, 30%) );
+  height: auto;
   widht:100%;
   grid-auto-rows: 30%;
   grid-gap: 3%;
 }
 
+
+.MOBIamigosGrid{
+  max-height: 100%!important;
+  display: grid;
+  grid-template-columns:  repeat(auto-fit,minmax(30%, 30%) );
+  height: auto;
+  widht:100%;
+  grid-auto-rows: 30%;
+  grid-gap: 5%;
+}
 
 
 .MOBIcolabsFols{
@@ -641,9 +653,9 @@ margin-bottom: 10%;
   margin-right: 10%;
   height: 90%!important;
   display: grid;
-  grid-template-rows: repeat(1,minmax(10%,30%) );
+  grid-template-rows: repeat(3,33% );
   grid-auto-columns: 100%;
-  grid-gap: 5%;
+  grid-gap: 2%;
   margin-top: -20%;
 }
 
@@ -654,9 +666,8 @@ margin-bottom: 10%;
   border-top-left-radius:  1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: auto;
-  height: 95%;
-  overflow: hidden;
-  background-color: #fff6;
+  max-height: 95%;
+    background-color: #fff6;
   padding: 5% 5% 5% 5%;
   display: block;
   }
