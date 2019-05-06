@@ -33,6 +33,7 @@ const Fullpage = () => (
 
           <div className="section">
 
+          <div className="MOBIdummy">
 
           <h1> Colaboradores </h1>
           <div className="MOBIrestcontainer">
@@ -49,8 +50,11 @@ const Fullpage = () => (
             </div>
           </div>
 
+          </div>
 
           <div className="section">
+          <div className="MOBIdummy">
+
             <h1> Instituições Amigas </h1>
 
 
@@ -63,6 +67,8 @@ const Fullpage = () => (
             <Amigos classN="MOBIcolabsFols" name="Mata do Sauá" fig="matadosaua.jpg" link="https://www.instagram.com/matadosaua/" />
             <Amigos classN="MOBIcolabsFols" name="Silo - Arte e Latitude Rural" fig="SILO.png" link="https://www.silo.org.br" />
 
+
+            </div>
 
                         </div>
     </div>

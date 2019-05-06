@@ -578,7 +578,8 @@ margin-bottom: 10%;
 
 /* Mobile */
 .MobipageTit{
-  margin-bottom: 2%;
+  margin-bottom: 5%;
+
 }
 
 
@@ -648,6 +649,7 @@ margin-bottom: 10%;
   margin-top: 0;
   height:100%;
   width:100%;
+  overflow: scroll;
 }
 
 .MOBIequipeGrid{
@@ -658,7 +660,7 @@ margin-bottom: 10%;
   grid-template-rows: repeat(3,33% );
   grid-auto-columns: 100%;
   grid-gap: 1%;
-  margin-top: 5%;
+  margin-top: 5 %;
 }
 
 
