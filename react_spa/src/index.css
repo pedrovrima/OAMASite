@@ -308,7 +308,7 @@ text-align: center;
 .mobiFirst{
 
 display: grid;
-grid-gap: 3%;
+grid-gap: 10%;
 grid-template-rows:85% auto;
   align-items: center;
 text-align: center;
