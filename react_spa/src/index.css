@@ -324,6 +324,7 @@ margin-bottom: 10%;
   grid-row-end: 2;
   margin:auto;
   width: 90%;
+  font-size: .75rem;
   border-radius: 3%;
   background-color: #FFF;
   align-items: center;
