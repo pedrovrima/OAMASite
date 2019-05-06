@@ -21,8 +21,8 @@ const Fullpage = () => (
 </div>
           <div className="section">
 
-          <h1>Equipe OAMa</h1>
 <div className="MOBIdummy">
+<h1 className="MobipageTit">Equipe OAMa</h1>
           <div className="MOBIequipeGrid">
           <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Raquel Justo" text="Bióloga com mestrado e ênfase em Biologia Animal, especificamente na área de Ornitologia, pela Universidade Federal Rural do Rio de Janeiro. Trabalhando com aves desde 2007, possui ampla experiência em elaboração, execução e coordenação de estudos de impactos ambientais"  />
           <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Luiza Figueira" text="Bióloga com mestrado em Ecologia pelo Instituto Nacional de Pesquisas da Amazônia. Trabalha com pesquisa de aves desde 2014, tendo colaborado com diversos projetos, como os Observatórios de Aves da Costa Rica e de Klamath, no Oregon, Estados Unidos."  />
