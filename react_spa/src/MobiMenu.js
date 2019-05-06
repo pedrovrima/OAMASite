@@ -46,8 +46,8 @@ triggerClick() {
 
     CloseNav() {
 
-      document.getElementById("myMobinav").style.height = "10%";
-      document.getElementById("myMobinav").style.maxHeight = "3em";
+      document.getElementById("myMobinav").style.height = "5%";
+      document.getElementById("myMobinav").style.maxHeight = "5%";
       this.setState({
         ...this.state,
         isClosed: true,
