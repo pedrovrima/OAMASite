@@ -603,7 +603,7 @@ margin-bottom: 10%;
 
 
 .MOBIcolabsFols{
-    height: 90%;
+    height: 100%;
     text-align: center;
   }
 
@@ -611,7 +611,7 @@ margin-bottom: 10%;
 
 .MOBIcolabsFols h1{
   font-weight: bold;
-  font-size: 80%;
+  font-size: 60%;
   margin:0;
 
 }
@@ -621,7 +621,7 @@ margin-bottom: 10%;
 .MOBIcolabsFols h2{
   font-style: italic;
   font-weight: normal;
-  font-size: .6em;
+  font-size: 30%;
   padding-top: .1em;
   margin: 0;
 
@@ -643,8 +643,8 @@ margin-bottom: 10%;
 }
 
 .MOBIdummy{
-  margin-top: 20%;
-  height:80%;
+  margin-top: 15%;
+  height:85%;
   width:100%;
 }
 
