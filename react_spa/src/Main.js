@@ -29,7 +29,9 @@ class Main extends Component {
 
     return (
  <HashRouter>
-        <div>
+        <div className="ALL">
+
+
             <MediaQuery query="(min-device-width: 800px)">
             <div className="wholesite">
             <DeskMenu/>

@@ -18,18 +18,17 @@ const Fullpage = () => (
 
 
       return (
-        <div className="heightman">
 
         <ReactFullpage.Wrapper>
           <div className="section">
           <h1>Projetos</h1>
+          <div className={"projectGrid"} id= "teste">
+
         <GridMaker classN="projectGrid" items={projs}/>
         </div>
-          <div className="section">
-          </div>
+  </div>
 
           </ReactFullpage.Wrapper>
-          </div>
         );
       }}
     />

@@ -1,19 +1,35 @@
+html {
+  height: 90%;
+  align-content: center;
+
+}
+
+
 body {
+  height: 100%;
   background-color: #F0E3A3;
-  padding: 1em;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
   margin: 0;
   overflow-x: hidden;
+  overflow-y: hidden;
+
   background-image: url("/figs/padrao.png");
   background-repeat: repeat;
 }
+
+.ALL{
+  height: inherit;
+}
+
 h1, h2, p, ul, li {
   font-family: sans-serif;
 }
 
 .wholesite{
+  height: 100%;
   margin-left: 5em;
-  width: 150em;
-
   overflow-x: hidden;
 }
 
@@ -32,7 +48,7 @@ h1, h2, p, ul, li {
 
 /* The side navigation menu */
 .sidenav {
-  padding-left: 2em;
+  padding-left: 2%;
 margin: 0;
  height: 100%; /* 100% Full-height */
  width: 3%; /* 0 width - change this with JavaScript */
@@ -100,6 +116,9 @@ margin: 0;
   transition: 0.3s;
 }
 
+#root{
+  height: 100%;
+}
 
 
 .sidenav li {
@@ -176,6 +195,7 @@ right: 2.2em;
 
 #main{
   transition: margin-left .5s;
+  height: 100%;
 }
 
 .open{
@@ -284,15 +304,6 @@ width:100%;
   overflow: hidden;
 }
 
-.homecontainer {
-  height: 35em;
-  display: grid;
-grid-column-gap: 3em;
-  grid-template-columns: 35% 15% 10% 25%;
-  grid-template-rows: 33% 13% auto 5%;
-  align-items: center;
-text-align: center;
-}
 
 .Mobimorenews{
   margin:auto;
@@ -350,15 +361,31 @@ margin-bottom: 10%;
   font-size: 100%;
 }
 
+.homecontainer {
+  padding-left: 2rem;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-row-gap: 10%;
+  grid-column-gap: 3%;
+  grid-template-columns: 55% 35%;
+  grid-template-rows: 40% 40%;
+  align-items: center;
+  text-align: center;
+}
+
 .oqoama{
-  border-radius: 3%;
+  height: 100%;
+  border-radius: 2rem;
   background-color: #FFF;
-  padding: 2em;
+  padding: 1rem;
     align-items: center;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-end: 3;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -370,49 +397,27 @@ margin-bottom: 10%;
 }
 
 .effort{
+  padding: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #FFF;
-  padding: 2em;
-
-
-  grid-row-start: 3;
-  grid-row-end: 4;
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-
-.newstittle{
-
-  font-size: 2em;
+  border-radius: 2rem;
+  height: 100%;
   grid-row-start: 1;
-  grid-row-end: 2 ;
+  grid-row-end: 2;
   grid-column-start: 2;
   grid-column-end: 3;
 }
+
 .news{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #FFF;
-  padding: 2em;
-
+  padding: 1rem;
+  height:100%;
   grid-row-start: 2;
   grid-row-end: 3 ;
   grid-column-start: 2;
   grid-column-end: 3;
-
-}
-
-.morenews{
-  font-size: 1em;
-  grid-row-start: 4;
-  grid-row-end: 5 ;
-  grid-column-start: 2;
-  grid-column-end: 3;
-
-}
-
-.morenews p{
-  postion:absolute;
-  right:0;
+  border-radius: 2rem;
 
 }
 
@@ -483,7 +488,7 @@ margin-bottom: 10%;
   border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 95%;
-  height: auto;
+  height: 60%;
 
   background-color: #fff6;
   padding: 9% 5% 5% 5%;
