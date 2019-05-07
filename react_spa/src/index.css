@@ -42,7 +42,7 @@ margin: 0;
  left: 0;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
- background-color: #F1D792; /* Black*/
+ background-color: #849aa5; /* Black*/
  overflow-x: hidden; /* Disable horizontal scroll */
  padding-top: 15em; /* Place content 60px from the top */
  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -187,7 +187,7 @@ right: 2.2em;
 
 
 #ajude{
-background-color: #FF69B4;
+background-color: #F0A3B0;
 width:100%;
 }
 
