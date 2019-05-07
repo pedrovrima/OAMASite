@@ -3,6 +3,8 @@ body {
   padding: 1em;
   margin: 0;
   overflow-x: hidden;
+  background-image: url("/figs/padrao.png");
+  background-repeat: repeat;
 }
 h1, h2, p, ul, li {
   font-family: sans-serif;
