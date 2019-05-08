@@ -32,7 +32,10 @@ class Home extends Component {
     </div>
 
       <div className="effort">
-      <p>a</p>
+      <div className="effort-content">
+
+      <h1>Por que capturamos aves? </h1>
+      </div>
       </div>
 
 
