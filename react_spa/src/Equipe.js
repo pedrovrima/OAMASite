@@ -79,6 +79,7 @@ const Fullpage = () => (
         <Amigos classN="colabsFols" name="Observatório de Aves do Klamath" fig="KBO.png" link="https://www.klamathbird.org" />
         <Amigos classN="colabsFols" name="Mata do Sauá" fig="matadosaua.jpg" link="https://www.instagram.com/matadosaua/" />
         <Amigos classN=" colabsFols" name="Silo - Arte e Latitude Rural" fig="SILO.png" link="https://www.silo.org.br" />
+        <Amigos classN=" colabsFols" name="Un Poco del Chocó" fig="unpoco.png" link="https://www.unpocodelchoco.com/" />
 
 
                     </div>

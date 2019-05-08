@@ -29,8 +29,8 @@ class DeskMenu extends Component{
 
 
     OpenNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-      document.getElementById("main").style.marginLeft = "250px";
+        document.getElementById("mySidenav").style.width = "15%";
+      document.getElementById("main").style.marginLeft = "15%";
       this.setState({
         ...this.state,
         isClosed: false,
@@ -44,7 +44,7 @@ class DeskMenu extends Component{
 
       CloseNav() {
 
-        document.getElementById("mySidenav").style.width = "2em";
+        document.getElementById("mySidenav").style.width = "3%";
         document.getElementById("main").style.marginLeft = "0";
         this.setState({
           ...this.state,
@@ -67,7 +67,7 @@ function  Hamburguer (props) {
 
 return (
         <div className="header" id="mySidenav" className="sidenav">
-        <div className="logohold">
+        <div className="logohold" onClick={this.CloseNav}>
           <NavLink exact to="/"><img className="logo" src="/figs/tt.png"/></NavLink>
           </div>
           <a href="javascript:void(0)" className="closebtn" onClick={this.CloseNav}>&times;</a>

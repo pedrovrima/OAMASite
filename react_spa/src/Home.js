@@ -34,7 +34,7 @@ class Home extends Component {
       <div className="effort">
       <div className="effort-content">
 
-      <h1>Por que capturamos aves? </h1>
+      <h1>Por que anilhamos aves? </h1>
       </div>
       </div>
 
