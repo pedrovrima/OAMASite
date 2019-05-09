@@ -686,10 +686,10 @@ vertical-align: bottom;
   margin:10%;
   display: grid;
   grid-template-columns: (1, 80%);
-  grid-auto-rows: minmax(3vh,20vh);
+  grid-auto-rows: minmax(5vh,50%);
   margin-top: 1%;
   max-height: 150vh;
-  grid-row-gap: 3vh;
+  grid-row-gap: 5vh;
 }
 
 
@@ -699,6 +699,7 @@ vertical-align: bottom;
   border-top-left-radius:  1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: auto;
+  height:auto;
   background-color: #fff6;
   padding: 2% 2% 2% 2%;
   display: block;
@@ -706,7 +707,6 @@ vertical-align: bottom;
 
 
 .MOBIequipeFols{
-  max-height: 300%;
   width:  100%;
   margin-top: 2%;
   margin-bottom: 1%;
