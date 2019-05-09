@@ -615,12 +615,11 @@ vertical-align: bottom;
 
 
 .MOBIcolabGrid{
-  height: auto;
   display: grid;
   grid-template-columns:  47.5% 47.5%;
   widht:100%;
-  grid-auto-rows: 30%;
-  
+  grid-auto-rows: auto;
+
 }
 
 
