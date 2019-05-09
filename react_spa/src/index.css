@@ -686,7 +686,7 @@ vertical-align: bottom;
   margin:10%;
   display: grid;
   grid-template-columns: (1, 80%);
-  grid-auto-rows: 30vh;
+  grid-auto-rows: auto;
   margin-top: 1%;
   max-height: 500vh;
   grid-row-gap: 10vh;
