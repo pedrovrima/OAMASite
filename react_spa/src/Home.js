@@ -21,7 +21,7 @@ class Home extends Component {
   var sessoes= {
   title: "Bem-vindo ao portal do Observatório de Aves da Mantiqueira",
   fig:"/figs/logoescritosemfundo.png",
-  text: "O Observatório de Aves daaaaaaaaaaaaaaaaaaaaaaa Mantiqueira é uma organização científica independente voltada para a pesquisa e conservação de aves na região da Serra da Mantiqueira"};
+  text: "O Observatório de Aves da Mantiqueira é uma organização científica independente voltada para a pesquisa e conservação de aves na região da Serra da Mantiqueira"};
 
 
     return (
