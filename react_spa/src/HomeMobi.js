@@ -3,13 +3,11 @@ import MediaQuery from 'react-responsive';
 import ReactFullpage from '@fullpage/react-fullpage';
 import {DeskEntry, sessoes} from './HomeSects'
 
-const Fullpage = () => (
-  <ReactFullpage
-      render={({ state, fullpageApi }) => {
+class MobiHome extends Component {
+  render(){
 
       return (
-        <ReactFullpage.Wrapper>
-          <div className="section">
+
           <div className="mobiFirst">
 
           <div  className="mobiEntry">
@@ -17,34 +15,22 @@ const Fullpage = () => (
           <DeskEntry sect={sessoes}  />
           </div>
 
-          <div  className="Mobimorenews" onClick={() => fullpageApi.moveSectionDown()}>
-          <h1>Novidades</h1><img className="plussign" src="/figs/plus.png"/>
 
+          <div className="MOBIeffort">
+          <div className="effort-content">
+
+          <h1>Por que anilhamos aves? </h1>
+          </div>
           </div>
 
+    ]
+          <div className="MOBInews">
+          <h1>Ajude o OAMa</h1>
           </div>
-                </div>
-
-          <div className="section">
           </div>
 
 
-      <div className="section">
-      <span>3</span>
 
-                    </div>
-
-        </ReactFullpage.Wrapper>
-      );
-    }}
-  />
-);
-
-
-class MobiHome extends Component {
-render(){
-return(
-    <Fullpage />
 )
 
 }
