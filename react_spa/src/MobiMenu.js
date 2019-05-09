@@ -31,8 +31,8 @@ triggerClick() {
 
 
   OpenNav() {
-    document.getElementById("myMobinav").style.height = "30%";
-    document.getElementById("myMobinav").style.maxHeight = "30%";
+    document.getElementById("myMobinav").style.height = "35vh";
+    document.getElementById("myMobinav").style.maxHeight = "35vh";
     this.setState({
       ...this.state,
       isClosed: false,
@@ -46,8 +46,8 @@ triggerClick() {
 
     CloseNav() {
 
-      document.getElementById("myMobinav").style.height = "5%";
-      document.getElementById("myMobinav").style.maxHeight = "5%";
+      document.getElementById("myMobinav").style.height = "7.5vh";
+      document.getElementById("myMobinav").style.maxHeight = "7.5vh";
       this.setState({
         ...this.state,
         isClosed: true,
