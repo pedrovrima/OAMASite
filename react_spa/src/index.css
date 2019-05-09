@@ -367,7 +367,7 @@ width:100%;
 margin-top: 4vh;
 display: grid;
 grid-template-columns: 100%;
-grid-auto-rows: minmax(1vh,45%);
+grid-auto-rows: minmax(40vh,45%);
 max-height: 100vh;
 align-items: center;
 text-align: center;
