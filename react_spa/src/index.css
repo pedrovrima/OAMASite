@@ -6,7 +6,7 @@ html {
 
 
 body {
-  height: 700vh;
+  height: 100%;
   background-color: #F0E3A3;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -685,11 +685,11 @@ vertical-align: bottom;
 }
 
 .MOBIequipeGrid{
-  height: 80vh;
+
   margin:10%;
   display: grid;
-  grid-template-rows: repeat(3,33% );
-  grid-auto-columns: 100%;
+  grid-template-columns: (1, 80%);
+  grid-auto-rows: 25vh;
   grid-gap: 1%;
   margin-top: 1%;
 }
