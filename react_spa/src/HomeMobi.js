@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import MediaQuery from 'react-responsive';
-import ReactFullpage from '@fullpage/react-fullpage';
 import {DeskEntry, sessoes} from './HomeSects'
 
 class MobiHome extends Component {
@@ -25,7 +24,7 @@ class MobiHome extends Component {
 
 
           <div className="MOBInews">
-          <h1>Ajude o OAMa</h1>
+          <h1>Quer ajudar o OAMa?</h1>
           </div>
 
 

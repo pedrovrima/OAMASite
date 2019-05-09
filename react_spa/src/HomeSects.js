@@ -19,5 +19,5 @@ return(
 export var sessoes= {id:"entry" ,
 pretitle: "Bem-vindo ao portal do",
 oamtit: "Observatório de Aves da Mantiqueira",
-fig:"/figs/tt.png",
+fig:"/figs/shortlogo_hisres.webp",
 text: "O Observatório de Aves da Mantiqueira é uma organização científica independente voltada para a pesquisa e conservação de aves na região da Serra da Mantiqueira"};

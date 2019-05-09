@@ -69,7 +69,7 @@ render() {
   return (
         <div className="header" id="myMobinav" className="mobinav">
         <div className="Mobilogohold">
-          <NavLink exact to="/"><img className="mobilogo" src="/figs/tt.png"/></NavLink>
+          <NavLink exact to="/"><img className="mobilogo" src="/figs/tt.png.webp"/></NavLink>
           <Hamburguer Click={this.triggerClick} sym={String.fromCharCode(this.state.hamSym)}/>
 
           </div>

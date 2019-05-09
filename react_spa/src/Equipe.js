@@ -74,12 +74,12 @@ const Fullpage = () => (
         <div className="restcontainer">
 
         <div className="colabGrid">
-        <Amigos classN="colabsFols" name="Observatório de Aves do Instituto Butantã" fig="OAU.jpg" link="https://www.facebook.com/observatoriodeavesibu" />
-        <Amigos classN="colabsFols" name="Observatório de Aves da Costa Rica" fig="CRBO.jpg" link="https://www.costaricabirds.org" />
-        <Amigos classN="colabsFols" name="Observatório de Aves do Klamath" fig="KBO.png" link="https://www.klamathbird.org" />
-        <Amigos classN="colabsFols" name="Mata do Sauá" fig="matadosaua.jpg" link="https://www.instagram.com/matadosaua/" />
-        <Amigos classN=" colabsFols" name="Silo - Arte e Latitude Rural" fig="SILO.png" link="https://www.silo.org.br" />
-        <Amigos classN=" colabsFols" name="Un Poco del Chocó" fig="unpoco.png" link="https://www.unpocodelchoco.com/" />
+        <Amigos classN="colabsFols" name="Observatório de Aves do Instituto Butantã" fig="OAU.jpg.webp" link="https://www.facebook.com/observatoriodeavesibu" />
+        <Amigos classN="colabsFols" name="Observatório de Aves da Costa Rica" fig="CRBO.jpg.webp" link="https://www.costaricabirds.org" />
+        <Amigos classN="colabsFols" name="Observatório de Aves do Klamath" fig="KBO.png.webp" link="https://www.klamathbird.org" />
+        <Amigos classN="colabsFols" name="Mata do Sauá" fig="matadosaua.jpg.webp" link="https://www.instagram.com/matadosaua/" />
+        <Amigos classN=" colabsFols" name="Silo - Arte e Latitude Rural" fig="SILO.png.webp" link="https://www.silo.org.br" />
+        <Amigos classN=" colabsFols" name="Un Poco del Chocó" fig="unpoco.png.webp" link="https://www.unpocodelchoco.com/" />
 
 
                     </div>

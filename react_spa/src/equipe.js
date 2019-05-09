@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 function FigPath(name){
-  return "/figs/" + name + ".png"
+  return "/figs/" + name + ".png.webp"
 }
 
 

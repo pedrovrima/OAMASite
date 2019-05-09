@@ -12,6 +12,8 @@ import Home from "./Home";
 import Stuff from "./Stuff";
 import Projetos from "./Projetos";
 import Equipe from "./Equipe";
+import Anilhamento from "./Anilham";
+
 import DeskMenu from "./DeskMenu";
 import MobiMenu from "./MobiMenu";
 import MobiHome from "./HomeMobi";
@@ -40,6 +42,7 @@ class Main extends Component {
             <Route path="/stuff" component={Stuff}/>
             <Route path="/projetos" component={Projetos}/>
             <Route path="/equipe" component={Equipe}/>
+            <Route path="/anilhamento" component={Anilhamento}/>
 
             </div>
             </div>

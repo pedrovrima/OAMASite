@@ -1,3 +1,5 @@
+@import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
 html {
   height: 90%;
   align-content: center;
@@ -14,7 +16,7 @@ body {
   margin: 0;
   overflow-x: hidden;
 
-  background-image: url("/figs/padrao.png");
+  background-image: url("/figs/padrao.webp");
   background-repeat: repeat;
 }
 
@@ -26,6 +28,10 @@ h1, h2, p, ul, li {
   font-family: sans-serif;
 }
 
+.imgroulette{
+  margin: auto;
+  max-width: 60%;
+}
 .wholesite{
   height: 100%;
   margin-left: 5em;
@@ -437,10 +443,29 @@ margin-top: 1vh;
 }
 
 .oqoama img{
-  max-width: 75%;
+  width: 40vh;
   object-fit:contain;
   overflow: hidden;
-  margin-bottom: 5%;
+
+}
+
+
+.oqoama h1{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.oqoama h2{
+margin-top: 1vh;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 4vh;
+}
+
+.oqoama span{
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .effort{
@@ -453,11 +478,12 @@ margin-top: 1vh;
   grid-row-end: 2;
   grid-column-start: 2;
   grid-column-end: 3;
-  background-image: url("/figs/porquenilhar.png");
+  background-image: url("/figs/porquenilhar.png.webp");
   background-size: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
   transition: .50s;
+  align-items: center;
 
 }
 
@@ -468,7 +494,7 @@ margin-top: 1vh;
   border-radius: 2rem;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-image: url("/figs/porquenilhar.png");
+  background-image: url("/figs/porquenilhar.png.webp");
   background-size: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -486,10 +512,12 @@ vertical-align: bottom;
 }
 
 .effort h1{
-    display: inline-block;
   color: white;
   font-weight: bold;
   text-shadow: .2rem .2rem .2rem #000;
+  font-size: 2.8rem;
+  position: relative;
+  text-align: left;
 }
 
 .MOBIeffort h1{
@@ -497,10 +525,16 @@ vertical-align: bottom;
   color: white;
   font-weight: bold;
   text-shadow: .2rem .2rem .2rem #000;
+  text-align: left;
 }
 
 
 .effort:hover{
+  background-size:  110%;
+}
+
+
+.news:hover{
   background-size:  110%;
 }
 
@@ -514,23 +548,58 @@ vertical-align: bottom;
   grid-column-start: 2;
   grid-column-end: 3;
   border-radius: 2rem;
+  background-image: url("/figs/Queraju.webp");
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  transition: .50s;
+  align-items: center;
+  transition: .50s;
 
 }
 
 
+.news h1{
+  color: white;
+  font-weight: bold;
+  text-shadow: .2rem .2rem .2rem #000;
+  font-size: 2.8rem;
+  position: relative;
+  text-align: right;
+  grid-column-start: 2;
+}
 
 
 .MOBInews{
+  padding: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #FFF;
-  padding: 1rem;
-  grid-row-start: 3;
-  grid-row-end: 4 ;
   border-radius: 2rem;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  transition: .50s;
+  margin-left: 2vw;
+  margin-right: 3vw;
+  margin-bottom: 5vh;
+  background-image: url("/figs/Queraju.webp");
+
 
 }
 
 
+
+.MOBInews h1{
+    display: inline-block;
+  color: white;
+  font-weight: bold;
+  text-shadow: .2rem .2rem .2rem #000;
+  text-align: right;
+  grid-column-start: 2;
+
+}
 
 .colabsFols{
     height: auto;
