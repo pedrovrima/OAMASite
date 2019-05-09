@@ -23,7 +23,7 @@ class MobiHome extends Component {
           </div>
           </div>
 
-    ]
+    
           <div className="MOBInews">
           <h1>Ajude o OAMa</h1>
           </div>
@@ -37,58 +37,3 @@ class MobiHome extends Component {
 }
 
 export default MobiHome;
-
-
-
-
-
-
-
-
-
-class Home extends Component {
-
-
-
-
-  render() {
-    function morenewsClick(e) {
-      e.preventDefault();
-      console.log('The link was clicked.');
-
-      document.getElementById("main").style.marginLeft = "-85em";
-    }
-
-
-  console.log(sessoes)
-
-    return (
-
-      <div className="homecontainer">
-      <div className="oqoama">
-      <DeskEntry sect={sessoes}/>
-    </div>
-
-      <div className="effort2">
-      <p>a</p>
-      </div>
-      <div className="effort">
-      <p>a</p>
-      </div>
-
-      <div className="newstittle">
-      <p>Novidades</p>
-      </div>
-
-      <div className="news">
-      <p>Novidades</p>
-      </div>
-
-      <div className="morenews" onClick={morenewsClick}>
-      <p></p>
-      </div>
-      </div>
-
-        );
-  }
-}
