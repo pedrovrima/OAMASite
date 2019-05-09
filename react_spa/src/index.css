@@ -624,13 +624,11 @@ vertical-align: bottom;
 
 
 .MOBIamigosGrid{
-  max-height: 100%!important;
   display: grid;
   grid-template-columns:  47.5% 47.5%;
-  height: auto;
   widht:100%;
-  grid-auto-rows: 40%;
-  grid-column-gap: 5%;
+  grid-auto-rows: auto;
+  
 }
 
 
