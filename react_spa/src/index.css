@@ -688,8 +688,9 @@ vertical-align: bottom;
   display: grid;
   grid-template-columns: (1, 80%);
   grid-auto-rows: 30vh;
-  grid-gap: 1%;
   margin-top: 1%;
+  height: 100vh;
+  grid-row-gap: 3vh;
 }
 
 
@@ -699,8 +700,7 @@ vertical-align: bottom;
   border-top-left-radius:  1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: auto;
-  max-height: 100%;
-    background-color: #fff6;
+  background-color: #fff6;
   padding: 2% 2% 2% 2%;
   display: block;
   }
@@ -712,6 +712,7 @@ vertical-align: bottom;
   margin-top: 2%;
   margin-bottom: 1%;
   float: center;
+  margin-bottom: 10vh;
 }
 
 
