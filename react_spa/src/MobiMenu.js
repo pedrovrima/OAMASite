@@ -31,8 +31,8 @@ triggerClick() {
 
 
   OpenNav() {
-    document.getElementById("myMobinav").style.height = "35vh";
-    document.getElementById("myMobinav").style.maxHeight = "35vh";
+    document.getElementById("myMobinav").style.height = "auto";
+    document.getElementById("myMobinav").style.maxHeight = "100vh";
     this.setState({
       ...this.state,
       isClosed: false,
