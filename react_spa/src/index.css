@@ -367,7 +367,7 @@ width:100%;
 margin-top: 4vh;
 display: grid;
 grid-template-columns: 100%;
-grid-auto-rows: minmax(40vh,45%);
+grid-auto-rows: minmax(10vh,75%);
 max-height: 100vh;
 align-items: center;
 text-align: center;
@@ -386,6 +386,7 @@ margin-bottom: 10%;
   align-items: center;
   height: auto;
   margin-bottom: 5vh;
+  min-height: 60vh;
 }
 
 .mobiEntry img{
