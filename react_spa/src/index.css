@@ -246,7 +246,7 @@ width:100%;
   position: absolute;
   height: 2em ;
   animation: heartbeat 10s infinite;
-  margin-top: -2vh; 
+  margin-top: -3vh; 
 }
 
 #heart:before,
