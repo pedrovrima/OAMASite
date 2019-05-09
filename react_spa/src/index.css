@@ -96,23 +96,22 @@ margin: 0;
 
 .mobinav a {
  text-decoration: none;
- font-size: 1em;
- color: #818181;
+ color: #fff;
  display: block;
  transition: 0.3s;
 }
 
 .mobinav ul {
-  margin-left: 5%;
-  padding-left: 0;
+padding: 0;
+
 }
 
 .mobinav li {
+    padding-left: 5%;
   padding-top: 2%;
   padding-bottom:2%;
   text-decoration: none;
-  font-size: 120%;
-  color: #818181;
+  font-size: 2rem;
   display: block;
   transition: 0.3s;
 }
@@ -628,7 +627,7 @@ vertical-align: bottom;
   grid-template-columns:  47.5% 47.5%;
   widht:100%;
   grid-auto-rows: auto;
-  
+
 }
 
 
