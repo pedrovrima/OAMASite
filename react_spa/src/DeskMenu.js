@@ -44,7 +44,7 @@ class DeskMenu extends Component{
 
       CloseNav() {
 
-        document.getElementById("mySidenav").style.width = "3%";
+        document.getElementById("mySidenav").style.width = "2%";
         document.getElementById("main").style.marginLeft = "0";
         this.setState({
           ...this.state,

@@ -13,7 +13,6 @@ body {
 
   margin: 0;
   overflow-x: hidden;
-  overflow-y: hidden;
 
   background-image: url("/figs/padrao.png");
   background-repeat: repeat;
@@ -52,7 +51,7 @@ h1, h2, p, ul, li {
   padding-left: 2%;
 margin: 0;
  height: 100%; /* 100% Full-height */
- width: 3%; /* 0 width - change this with JavaScript */
+ width: 2%; /* 0 width - change this with JavaScript */
  position: fixed; /* Stay in place */
  z-index: 1; /* Stay on top */
  top: 0; /* Stay at the top */
@@ -68,13 +67,14 @@ margin: 0;
 /* The side navigation menu */
 .mobinav {
   margin: 0;
- height: 2rem; /* 100% Full-height */
+ height: 7.5vh; /* 100% Full-height */
  width: 100%; /* 0 width - change this with JavaScript */
  position: fixed; /* Stay in place */
  z-index: 1; /* Stay on top */
  top: 0; /* Stay at the top */
  left: 0;
- background-color: white; /* Black*/
+ background-color: #849aa5; /* Black*/
+
  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
  overflow-x: hidden; /* Disable horizontal scroll */
  overflow-y: hidden; /* Disable horizontal scroll */
@@ -171,18 +171,16 @@ width: 10%;
 
 
 .Mobilogohold .mobilogo {
-  background-color: white;
-  max-height: 2em;
-  max-width: 75%;
+  max-height: 5vh;
 
 
 }
 
 .Mobilogohold .mobihamburger{
-  font-size:2em;
+  font-size:7vh;
   position: absolute;
-  right: 1em;
-  margin-top:-1em;
+  right: .5em;
+  margin-top:-8vh;
 }
 
 .sidenav .menu {
@@ -681,20 +679,19 @@ vertical-align: bottom;
 
 .MOBIdummy{
   margin-top: 0;
-  height:100%;
+  height: auto;
   width:100%;
   overflow: scroll;
 }
 
 .MOBIequipeGrid{
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 80%!important;
+  height: 80vh;
+  margin:10%;
   display: grid;
   grid-template-rows: repeat(3,33% );
   grid-auto-columns: 100%;
   grid-gap: 1%;
-  margin-top: 5 %;
+  margin-top: 1%;
 }
 
 
@@ -704,11 +701,12 @@ vertical-align: bottom;
   border-top-left-radius:  1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: auto;
-  max-height: 95%;
+  max-height: 100%;
     background-color: #fff6;
   padding: 2% 2% 2% 2%;
   display: block;
   }
+
 
 .MOBIequipeFols{
   max-height: 300%;
@@ -741,7 +739,7 @@ vertical-align: bottom;
   margin-left: 20%;
   margin-top: -2%;
   text-align: left;
-  font-size: 100%;
+  font-size: 140%;
 
 }
 
@@ -749,7 +747,7 @@ vertical-align: bottom;
   margin-top: -1%;
   margin-left: 0%;
   text-align: left;
-  font-size: 75%;
+  font-size: 100%;
 }
 
 .MOBIAjudeGrid{
@@ -806,4 +804,15 @@ vertical-align: bottom;
   align-items: center;
   align-content: center;
 
+}
+
+
+.mobiheadersection{
+  height: 92.5vh;
+}
+
+
+.mobisections{
+  overflow: auto;
+  height:300vh;
 }

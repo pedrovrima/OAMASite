@@ -5,21 +5,17 @@ import { Colab, MOBIPEquipe, Amigos } from "./equipe";
 
 
 
-const Fullpage = () => (
-  <ReactFullpage
-    render={({ state, fullpageApi }) => {
-      return (
-        <ReactFullpage.Wrapper>
-          <div className="section" id="section1">
-          <div className="headersection">
+class MobiEquipe extends Component {
+  render() {
+    return (
+      <div className="mobisections">
+          <div className="mobiheadersection">
 
           <h1 id="section1Header">Quem Somos</h1>
           <div className="nosizecontainer">
           <p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
           </div>
           </div>
-</div>
-          <div className="section">
 
 <div className="MOBIdummy">
 <h1 className="MobipageTit">Equipe OAMa</h1>
@@ -28,10 +24,8 @@ const Fullpage = () => (
           <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Luiza Figueira" text="Bióloga com mestrado em Ecologia pelo Instituto Nacional de Pesquisas da Amazônia. Trabalha com pesquisa de aves desde 2014, tendo colaborado com diversos projetos, como os Observatórios de Aves da Costa Rica e de Klamath, no Oregon, Estados Unidos."  />
           <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Pedro Martins" text="Ecólogo com interesse em estatística e dinâmica de populações de aves. Após concluir seu mestrado, Pedro se juntou ao programa de monitoramento de aves do Observatório de Aves de Klamath, nos EUA, onde foi certificado pelo Conselho Norte-Americano de Anilhamento."  />
             </div>
-</div>
-          </div>
+            </div>
 
-          <div className="section">
 
           <div className="MOBIdummy">
 
@@ -50,9 +44,7 @@ const Fullpage = () => (
             </div>
           </div>
 
-          </div>
 
-          <div className="section">
           <div className="MOBIdummy">
 
             <h1> Instituições Amigas </h1>
@@ -72,19 +64,11 @@ const Fullpage = () => (
 
                         </div>
     </div>
+
+
     </div>
 
 
-        </ReactFullpage.Wrapper>
-      );
-    }}
-  />
-);
-
-class MobiEquipe extends Component {
-render(){
-return(
-    <Fullpage />
 )
 
 }
