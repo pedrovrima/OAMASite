@@ -385,6 +385,7 @@ margin-bottom: 10%;
   border-radius: 2rem;
   background-color: #FFF;
   align-items: center;
+  height: auto;
 }
 
 .mobiEntry img{
