@@ -8,7 +8,7 @@ class MobiHome extends Component {
 
       return (
 
-          <div className="mobiFirst">
+<div>
 
           <div  className="mobiEntry">
 
@@ -23,13 +23,13 @@ class MobiHome extends Component {
           </div>
           </div>
 
-    
+
           <div className="MOBInews">
           <h1>Ajude o OAMa</h1>
           </div>
+
+
           </div>
-
-
 
 )
 
