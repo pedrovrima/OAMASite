@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import MediaQuery from 'react-responsive';
 import {DeskEntry, sessoes} from './HomeSects'
+import {
+  Route,
+  NavLink,
+  HashRouter,
+  Image
+} from "react-router-dom";
 
 class MobiHome extends Component {
   render(){
@@ -15,12 +21,11 @@ class MobiHome extends Component {
           </div>
 
 
-          <div className="MOBIeffort">
-          <div className="effort-content">
+          <NavLink exact to="/anilhamento" className="MOBIeffort">
 
           <h1>Por que anilhamos aves? </h1>
-          </div>
-          </div>
+
+          </NavLink>
 
 
           <div className="MOBInews">
