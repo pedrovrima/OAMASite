@@ -366,9 +366,9 @@ width:100%;
 .mobiFirst{
 margin-top: 4vh;
 display: grid;
-grid-template-columns: 100%;
+grid-template-columns: (1,90%);
 grid-auto-rows: minmax(10vh,75%);
-max-height: 100vh;
+max-height: 200vh;
 align-items: center;
 text-align: center;
 margin-bottom: 10%;
