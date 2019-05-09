@@ -81,7 +81,7 @@ render() {
           <li onClick={this.CloseNav}><NavLink to="/equipe" >Equipe</NavLink></li>
 
           <li id="ajude" onClick={this.CloseNav}><NavLink to="/ajude">Ajude
-          <div id="heart"></div>
+          <div id="mobiheart"></div>
           </NavLink></li>
 
         </ul>

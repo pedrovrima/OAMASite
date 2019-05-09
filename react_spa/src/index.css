@@ -241,6 +241,14 @@ width:100%;
   animation: heartbeat 10s infinite;
 }
 
+#mobiheart {
+  right: 10vw;
+  position: absolute;
+  height: 2em ;
+  animation: heartbeat 10s infinite;
+  margin-top: -2vh; 
+}
+
 #heart:before,
 #heart:after {
   position: absolute;
@@ -277,6 +285,45 @@ width:100%;
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
+
+
+#mobiheart:before,
+#mobiheart:after {
+  position: absolute;
+  content: "";
+  left: .75em;
+  top: 0;
+  width: .75em;
+  height: 1.2em;
+  background: #FF1493;
+  -moz-border-radius: .75em .75em 0 0;
+  border-radius: .75em .75em 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+#mobiheart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
 
 .restcontainer{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
