@@ -367,8 +367,11 @@ width:100%;
 margin-top: 10%;
 display: grid;
 grid-template-columns: 100%;
-grid-auto-rows: minmax(2vh,50vh);
-  align-items: center;
+grid-auto-rows: minmax(5vh,50%);
+margin-top: 1%;
+max-height: 150vh;
+grid-row-gap: 5vh;
+align-items: center;
 text-align: center;
 margin-bottom: 10%;
 }
