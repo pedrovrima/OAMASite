@@ -670,9 +670,9 @@ vertical-align: bottom;
 
 
 .MOBIcolabsFols img{
-  border-radius: 5em;
+  border-radius: 50%;
   height:  auto;
-  max-width:90%;
+  max-width:15vh;
 }
 
 .MOBIdummy{
@@ -689,8 +689,8 @@ vertical-align: bottom;
   grid-template-columns: (1, 80%);
   grid-auto-rows: 30vh;
   margin-top: 1%;
-  height: 100vh;
-  grid-row-gap: 3vh;
+  max-height: 150vh;
+  grid-row-gap: 4vh;
 }
 
 
