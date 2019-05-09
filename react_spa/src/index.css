@@ -677,9 +677,10 @@ vertical-align: bottom;
 
 .MOBIdummy{
   margin-top: 0;
-  height: auto;
+  
   width:100%;
   overflow: scroll;
+  max-height: 200vh;
 }
 
 .MOBIequipeGrid{
@@ -689,7 +690,7 @@ vertical-align: bottom;
   grid-template-columns: (1, 80%);
   grid-auto-rows: 30vh;
   margin-top: 1%;
-  max-height: 150vh;
+  max-height: 200vh;
   grid-row-gap: 4vh;
 }
 
