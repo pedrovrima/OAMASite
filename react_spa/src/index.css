@@ -689,7 +689,7 @@ vertical-align: bottom;
   grid-auto-rows: 30vh;
   margin-top: 1%;
   max-height: 500vh;
-  grid-row-gap: 4vh;
+  grid-row-gap: 10vh;
 }
 
 
