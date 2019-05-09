@@ -57,6 +57,8 @@ class Main extends Component {
           <Route path="/projetos" component={Projetos}/>
           <Route path="/equipe" component={MobiEquipe}/>
           <Route path="/ajude" component={MobiAjude}/>
+          <Route path="/anilhamento" component={Anilhamento}/>
+
 
           </div>
           </div>
