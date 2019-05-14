@@ -8,14 +8,19 @@ import { Colab, MOBIPEquipe, Amigos } from "./equipe";
 class MobiEquipe extends Component {
   render() {
     return (
-      <div className="mobisections">
-          <div className="mobiheadersection">
+      <div>
 
-          <h1 id="section1Header">Quem Somos</h1>
-          <div className="nosizecontainer">
-          <p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
-          </div>
-          </div>
+      <div className="MOBIequipe">
+      <div className="entrypic">
+
+      <div className="MOBItext">
+      <h1>Sobre o OAMa</h1>
+      <p className="MOBIentrytext">
+    O Observatório de Aves da Mantiqueira é uma iniciativa independente e sem fins lucrativos para o estudo das aves brasileiras e seus habitats, com foco na Mata Atlântica. O OAMa foi planejado com o principal objetivo de auxiliar a preencher as lacunas no conhecimento ornitológico brasileiro e promover maior conexão entre ciência e conservação.</p>
+      </div>
+      </div>
+
+      </div>
 
 <div className="MOBIdummy">
 <h1 className="MobipageTit">Equipe OAMa</h1>
@@ -76,10 +81,10 @@ class MobiEquipe extends Component {
             <Amigos classN="MOBIcolabsFols" name="Observatório de Aves da Costa Rica" fig="CRBO.jpg.webp" link="https://www.costaricabirds.org" />
             <Amigos classN="MOBIcolabsFols" name="Observatório de Aves do Klamath" fig="KBO.png.webp" link="https://www.klamathbird.org" />
             <Amigos classN="MOBIcolabsFols" name="Observatório de Aves da PUC-RS" fig="PUCRS.png.webp" link="http://www.pucrs.br/ima/projetos/observatorio-de-aves/" />
+            <Amigos classN=" MOBIcolabsFols" name="Un Poco del Chocó" fig="unpoco.png.webp" link="https://www.unpocodelchoco.com/" />
 
             <Amigos classN="MOBIcolabsFols" name="Mata do Sauá" fig="matadosaua.jpg.webp" link="https://www.instagram.com/matadosaua/" />
             <Amigos classN="MOBIcolabsFols" name="Silo - Arte e Latitude Rural" fig="SILO.png.webp" link="https://www.silo.org.br" />
-            <Amigos classN=" MOBIcolabsFols" name="Un Poco del Chocó" fig="unpoco.png.webp" link="https://www.unpocodelchoco.com/" />
 
 
             </div>

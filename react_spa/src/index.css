@@ -336,6 +336,7 @@ width:100%;
   -moz-border-radius: 5%;
   border-radius: 1em;
   margin-bottom: 10vh;
+  padding-bottom: 3em;
 }
 
 
@@ -351,6 +352,8 @@ width:100%;
   border-radius: 1em;
   height: 45%;
   overflow: hidden;
+  padding-bottom: 3em;
+
 }
 
 
@@ -1062,6 +1065,12 @@ vertical-align: bottom;
   background-image: url("/figs/sobre/entryfoto.jpeg.webp");
 }
 
+
+.MOBIequipe{
+  background-size: cover;
+  background-image: url("/figs/sobre/MOBIquemsomos.png.webp");
+}
+
 .equipe{
   background-size: cover;
   background-image: url("/figs/sobre/Quem somos opcao2.JPG.webp");
@@ -1091,7 +1100,28 @@ vertical-align: bottom;
   font-size: 3rem;
 }
 
-.
+.MOBItext h1{
+  margin-top: 0;
+  position: absolute;
+  color: white;
+  text-shadow: .2rem .2rem .2rem #000;
+}
+
+.entrypic .MOBIentrytext{
+
+  color: white;
+  width: 95vw;
+  text-shadow: .2rem .2rem .2rem #000;
+  margin-top: 10vh;
+  font-size: 1rem;
+  margin-left: 3vw;
+}
+
+.entrypic .MOBItext{
+  position: absolute;
+  bottom: 5vh;
+
+}
 
 h1{
   margin-left: 2vh;

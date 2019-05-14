@@ -78,10 +78,10 @@ Acreditamos que juntos podemos ir mais longe. Por isso o OAMa é formado por um 
         <Amigos classN="colabsFols" name="Observatório de Aves da Costa Rica" fig="CRBO.jpg.webp" link="https://www.costaricabirds.org" />
         <Amigos classN="colabsFols" name="Observatório de Aves do Klamath" fig="KBO.png.webp" link="https://www.klamathbird.org" />
         <Amigos classN="colabsFols" name="Observatório de Aves da PUC-RS" fig="PUCRS.png.webp" link="http://www.pucrs.br/ima/projetos/observatorio-de-aves/" />
+        <Amigos classN=" colabsFols" name="Un Poco del Chocó" fig="unpoco.png.webp" link="https://www.unpocodelchoco.com/" />
 
         <Amigos classN="colabsFols" name="Mata do Sauá" fig="matadosaua.jpg.webp" link="https://www.instagram.com/matadosaua/" />
         <Amigos classN=" colabsFols" name="Silo - Arte e Latitude Rural" fig="SILO.png.webp" link="https://www.silo.org.br" />
-        <Amigos classN=" colabsFols" name="Un Poco del Chocó" fig="unpoco.png.webp" link="https://www.unpocodelchoco.com/" />
 
 
                     </div>
