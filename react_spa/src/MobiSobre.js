@@ -7,11 +7,11 @@ class MobiSobre extends Component {
   <div>
 
   <div className="MOBIsobreo">
-  <div className="entrypic">
+  <div className="MOBIentrypic">
 
-  <div className="text">
+  <div className="MOBItext">
   <h1>Sobre o OAMa</h1>
-  <p className="entrytext">
+  <p className="MOBIentrytext">
 O Observatório de Aves da Mantiqueira é uma iniciativa independente e sem fins lucrativos para o estudo das aves brasileiras e seus habitats, com foco na Mata Atlântica. O OAMa foi planejado com o principal objetivo de auxiliar a preencher as lacunas no conhecimento ornitológico brasileiro e promover maior conexão entre ciência e conservação.</p>
   </div>
   </div>

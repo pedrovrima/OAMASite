@@ -14,15 +14,26 @@ class Ajude extends Component {
 
 
     return (
-<div className="ajudesec">
+<div>
+<div className="ajude">
+<div className="entrypic">
+
+<div className="text">
+<h1>Ajude o OAMa</h1>
+<p className="entrytext">
+O OAMa é uma iniciativa sem fins lucrativos e independente, que só é viável graças à energia, dedicação e colaboração de pessoas que acreditam que, juntos, podemos fazer diferença.</p>
+</div>
+</div>
+
+</div>
+
       <div className="restcontainer">
-      <h1 style={{"text-align":"center", "font-size":"4rem"}}>Ajude o OAMa</h1>
       <div  className="entrytext">
-      <p>O OAMa é uma iniciativa sem fins lucrativos e independente, que só é viável graças à energia, dedicação e colaboração de pessoas que acreditam que, juntos, podemos fazer diferença.</p>
+
+      <p>Toda doação feita para o OAMa é direcionada para a realização de nossos projetos de pesquisa e de educação. </p>
       </div>
       <div  className="secondtext">
 
-<p>Toda doação feita para o OAMa é direcionada para a realização de nossos projetos de pesquisa e de educação. </p>
 <p>Tornando-se um afiliado ou fazendo uma doação para o OAMa você está apoiando a conservação de aves e habitats brasileiros com base em pesquisas científicas. Sua participação será extremamente apreciada pelo OAMa, e nós nos comprometemos em transformar a sua colaboração em pesquisa, conhecimento e conservação!</p>
     </div>
     </div>

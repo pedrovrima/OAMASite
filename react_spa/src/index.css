@@ -353,8 +353,10 @@ width:100%;
   height: 45%;
   overflow: hidden;
   padding-bottom: 3em;
-
+  align-items: center;
+  align-content: center;
 }
+
 
 
 .Mobimorenews{
@@ -868,7 +870,7 @@ vertical-align: bottom;
   width: auto;
   height:auto;
   background-color: #fff6;
-  padding: 2% 2% 2% 2%;
+  padding: 5vw;
   display: block;
   }
 
@@ -896,7 +898,7 @@ vertical-align: bottom;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 50%;
   height:  auto;
-  max-width: 25%;
+  max-width: 45%;
   display:inline;
   margin-left:-10%;
   margin-right: 6%;
@@ -1020,13 +1022,11 @@ vertical-align: bottom;
 .entrytext{
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  padding: 1rem;
 }
 
 .secondtext{
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  padding: 1rem;
   padding-top: 0;
 }
 
@@ -1059,12 +1059,33 @@ vertical-align: bottom;
 
 }
 
+.MOBIentrypic{
+  height:95vh;
+  margin-bottom: 5vh;
+
+}
+
+
+.ajude{
+  background-size: cover;
+  background-image: url("/figs/sobre/Ajude.png.webp");
+}
+
+
+.MOBIajude{
+  background-size: cover;
+  background-image: url("/figs/sobre/MOBIAjude.png.webp");
+}
 
 .sobreo{
   background-size: cover;
-  background-image: url("/figs/sobre/entryfoto.jpeg.webp");
+  background-image: url("/figs/sobre/Sobre.png.webp");
 }
 
+.MOBIsobreo{
+  background-size: cover;
+  background-image: url("/figs/sobre/MOBIsobre.png.webp");
+}
 
 .MOBIequipe{
   background-size: cover;
@@ -1107,7 +1128,7 @@ vertical-align: bottom;
   text-shadow: .2rem .2rem .2rem #000;
 }
 
-.entrypic .MOBIentrytext{
+.MOBIentrypic .MOBIentrytext{
 
   color: white;
   width: 95vw;
@@ -1117,7 +1138,7 @@ vertical-align: bottom;
   margin-left: 3vw;
 }
 
-.entrypic .MOBItext{
+.MOBIentrypic .MOBItext{
   position: absolute;
   bottom: 5vh;
 
@@ -1142,8 +1163,8 @@ a{
 
 
 .MOBIrestcontainer .aentrytext{
-  margin-left: 10%;
-  width: 80%;
+  margin-left: 5%;
+  width: 90%;
   font-size: 1;
   padding: 0;
   padding-bottom: 0;
@@ -1164,10 +1185,8 @@ a{
 
 
 .aentrytext{
-  margin-left: 10%;
+  margin-left: 5%;
   width: 90%;
-  font-size: 1;
-  padding: 1rem;
   padding-bottom: 0;
   text-align: justify;
 }
@@ -1177,7 +1196,6 @@ a{
   width: 90%;
   font-size: 1;
   margin-bottom: 1rem;
-  padding: 1rem;
   padding-top: 0;
   text-align: justify;
 }

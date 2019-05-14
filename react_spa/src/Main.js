@@ -9,7 +9,7 @@ import {
   Image
 } from "react-router-dom";
 import Home from "./Home";
-import Stuff from "./Stuff";
+import Sobre from "./Sobre";
 import Projetos from "./Projetos";
 import Equipe from "./Equipe";
 import Anilhamento from "./Anilham";
@@ -41,8 +41,7 @@ class Main extends Component {
             <DeskMenu/>
             <div id="main">
             <Route exact path="/" component={Home}/>
-            <Route path="/stuff" component={Stuff}/>
-            <Route path="/projetos" component={Projetos}/>
+            <Route path="/sobre" component={Sobre}/>
             <Route path="/equipe" component={Equipe}/>
             <Route path="/anilhamento" component={Anilhamento}/>
             <Route path="/ajude" component={Ajude}/>
@@ -57,7 +56,6 @@ class Main extends Component {
           <div id="main">
           <Route exact path="/" component={MobiHome}/>
           <Route path="/sobre" component={MobiSobre}/>
-          <Route path="/projetos" component={Projetos}/>
           <Route path="/equipe" component={MobiEquipe}/>
           <Route path="/ajude" component={MobiAjude}/>
           <Route path="/anilhamento" component={Anilhamento}/>

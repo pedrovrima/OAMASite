@@ -70,11 +70,9 @@ return (
         <div className="logohold" onClick={this.CloseNav}>
           <NavLink exact to="/"><img className="logo" src="/figs/tt.png.webp"/></NavLink>
           </div>
-          <a href="javascript:void(0)" className="closebtn" onClick={this.CloseNav}>&times;</a>
           <ul className="menu">
 
-          <li onClick={this.CloseNav}><NavLink to="/stuff">Stuff</NavLink></li>
-          <li onClick={this.CloseNav}><NavLink to="/projetos">Projetos</NavLink></li>
+          <li onClick={this.CloseNav}><NavLink to="/sobre">Sobre</NavLink></li>
           <li onClick={this.CloseNav}><NavLink to="/equipe" >Equipe</NavLink></li>
 
           <li id="ajude" onClick={this.CloseNav}><NavLink to="/ajude">Ajude

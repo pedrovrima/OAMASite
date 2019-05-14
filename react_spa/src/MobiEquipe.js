@@ -11,19 +11,19 @@ class MobiEquipe extends Component {
       <div>
 
       <div className="MOBIequipe">
-      <div className="entrypic">
+      <div className="MOBIentrypic">
 
       <div className="MOBItext">
-      <h1>Sobre o OAMa</h1>
+      <h1>Equipe OAMa</h1>
       <p className="MOBIentrytext">
-    O Observatório de Aves da Mantiqueira é uma iniciativa independente e sem fins lucrativos para o estudo das aves brasileiras e seus habitats, com foco na Mata Atlântica. O OAMa foi planejado com o principal objetivo de auxiliar a preencher as lacunas no conhecimento ornitológico brasileiro e promover maior conexão entre ciência e conservação.</p>
+Acreditamos que juntos podemos ir mais longe. Por isso o OAMa é formado por um grupo de profissionais de diversas áreas que colaboram com suas especialidades, sem as quais a execução de nossos projetos e atividades seria impossível. Conheça abaixo quem são as pessoas e instituições que fazem do OAMa uma organização que preza pela pluraridade e interdisciplinariedade.</p>
       </div>
       </div>
 
       </div>
 
 <div className="MOBIdummy">
-<h1 className="MobipageTit">Equipe OAMa</h1>
+<h1 className="MobipageTit">Diretores</h1>
           <div className="MOBIequipeGrid">
           <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Raquel Justo" text="Bióloga com mestrado e ênfase em Biologia Animal, especificamente na área de Ornitologia, pela Universidade Federal Rural do Rio de Janeiro. Trabalhando com aves desde 2007, possui ampla experiência em elaboração, execução e coordenação de estudos de impactos ambientais"  />
           <MOBIPEquipe classN2="MOBIequipetext" classN="MOBIequipeFols" name="Luiza Figueira" text="Bióloga com mestrado em Ecologia pelo Instituto Nacional de Pesquisas da Amazônia. Trabalha com pesquisa de aves desde 2014, tendo colaborado com diversos projetos, como os Observatórios de Aves da Costa Rica e de Klamath, no Oregon, Estados Unidos."  />
@@ -38,13 +38,13 @@ class MobiEquipe extends Component {
           <div className="MOBIrestcontainer">
           <div className="MOBIcolabGrid">
 
-          <div><Colab  classN="MOBIcolabsFols" name="Renata Miwa" func="Designer" link="www.teste.com" /></div>
-          <div><Colab classN="MOBIcolabsFols" name="Julia Rodrigues" func="Fotógrafa" link="www.teste.com" /></div>
-          <div><Colab classN="MOBIcolabsFols" name="Simone Coimbra" func="Estilista" link="www.teste.com" /></div>
-          <div><Colab classN="MOBIcolabsFols" name="Joaquim Mendonça" func="Consultor Botânico" link="www.teste.com" /></div>
-          <div><Colab classN="MOBIcolabsFols" name="Dirlene Martins" func="Revisora de Português" link="www.teste.com" /></div>
-          <div><Colab classN="MOBIcolabsFols" name="Ellen Campbell" func="Revisora de Inglễs" link="www.teste.com" /></div>
-          <div><Colab classN="MOBIcolabsFols" name="Eduardo Schultz" func="Ornitólogo e Fotógrafo" link="www.teste.com" /></div>
+          <div><Colab  classN="MOBIcolabsFols" name="Renata Miwa" func="Designer" link="" /></div>
+          <div><Colab classN="MOBIcolabsFols" name="Julia Rodrigues" func="Fotógrafa" link="" /></div>
+          <div><Colab classN="MOBIcolabsFols" name="Simone Coimbra" func="Estilista" link="" /></div>
+          <div><Colab classN="MOBIcolabsFols" name="Joaquim Mendonça" func="Consultor Botânico" link="" /></div>
+          <div><Colab classN="MOBIcolabsFols" name="Dirlene Martins" func="Revisora de Português" link="" /></div>
+          <div><Colab classN="MOBIcolabsFols" name="Ellen Campbell" func="Revisora de Inglễs" link="" /></div>
+          <div><Colab classN="MOBIcolabsFols" name="Eduardo Schultz" func="Ornitólogo e Fotógrafo" link="" /></div>
           </div>
             </div>
           </div>

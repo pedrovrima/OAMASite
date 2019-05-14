@@ -3,100 +3,67 @@ import ReactDOM from 'react-dom';
 import ReactFullpage from '@fullpage/react-fullpage';
 
 
-
-const Fullpage = () => (
-  <ReactFullpage
-  controlArrows={false}
-    render={({ state, fullpageApi }) => {
-      return (
-        <ReactFullpage.Wrapper>
-
-        <div className={"section"}>
-
-        <div className={"slide"}>
-          <div className="AjudeGrid">
-            <div className="Ajudetittle">
-              <h1>Parceiro OAMa</h1>
-              <p>
-              Texto sobre como a pessoa pode ajudar
-              </p>
-
-            </div>
-            <div className="ajudeMensal"  onClick={() =>fullpageApi.moveSlideRight()}>
-            a
-            </div>
-            <div className="ajudeSolo" onClick={() =>fullpageApi.moveSlideLeft()}>
-            a
-            </div>
-
-          </div>
-        </div>
-          <div className={"slide active"}>
-            <div className="MOBIAjudeGrid">
-              <div className="Ajudetittle">
-                <h1>Ajude2</h1>
-                <p>
-                Texto sobre como a pessoa pode ajudar
-                </p>
-
-              </div>
-              <div className="MOBIajudeGrid1"  onClick={() =>fullpageApi.moveSlideRight()}>
-              <div>
-              <h2>Ajuda Única </h2>
-              <p>Apoie os projetos do OAMa com uma doação única em qualquer valor.</p>
-              </div>
-
-              <div className="imgdiv">
-              <div className="imgGrid">
-
-              <img src="/figs/arr_right.png" />
-              </div>
-
-
-              </div>
-              </div>
-
-              <div className="MOBIajudeGrid2" onClick={() =>fullpageApi.moveSlideLeft()}>
-              <div className="imgdiv">
-              <div className="imgGrid">
-              <img src="/figs/arr_left.png" />
-              </div>
-              </div>
-
-              <div>
-
-              <h2>Ajuda Mensal </h2>
-              <p>Torne-se um apoiador mensal do OAMa e faça parte do nosso time de associados.</p>
-              </div>
-              </div>
-              </div>
-
-            </div>
-
-
-          <div className={"slide"}>
-                <h1>Ajuda única</h1>
-                <p>
-                Entre abaixo o valor de sua contribuição. Você será direcionado para uma página de check-out do PayPal.
-                </p>
-
-
-
-
-          </div>
-          </div>
-
-
-        </ReactFullpage.Wrapper>
-      );
-    }}
-  />
-);
-
 class MobiAjude extends Component {
 render(){
 return(
-    <Fullpage  />
+  <div>
+      <div className="MOBIajude">
+      <div className="MOBIentrypic">
+
+      <div className="MOBItext">
+      <h1>Ajude o OAMa</h1>
+      <p className="MOBIentrytext">
+Toda doação feita para o OAMa é direcionada para a realização de nossos projetos de pesquisa e de educação. </p>
+</div>
+
+      </div>
+      </div>
+      <div className="MOBIrestcontainer">
+      <div  className="MOBIentrytext">
+
+      <p>Toda doação feita para o OAMa é direcionada para a realização de nossos projetos de pesquisa e de educação. </p>
+      </div>
+      <div  className="MOBIsecondtext">
+
+<p>Tornando-se um afiliado ou fazendo uma doação para o OAMa você está apoiando a conservação de aves e habitats brasileiros com base em pesquisas científicas. Sua participação será extremamente apreciada pelo OAMa, e nós nos comprometemos em transformar a sua colaboração em pesquisa, conhecimento e conservação!</p>
+    </div>
+    </div>
+    <div className="MOBIrestcontainer">
+    <h1>Quero me Associar</h1>
+    <p>Ao se tornar um associado OAMa você está apoiando e fortalecendo nossas atividades mensalmente. Associados são extremamente importantes no nosso modelo de organização independente. Com a sua colaboração regular nós podemos planejar o próximo passo com antecedência, e focar nossos esforços na realização de pesquisa científica de excelência.</p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick"/>
+    <input type="hidden" name="hosted_button_id" value="MJUN3QTEW56DY"/>
+    <table>
+    <tr><td><input type="hidden" name="on0" value="Opções de pagamento"/>Opções de pagamento</td></tr><tr><td><select name="os0">
+    	<option value="Canario">Canario : R$15,00 BRL - mensalmente</option>
+    	<option value="Ticotico">Ticotico : R$30,00 BRL - mensalmente</option>
+    	<option value="Sabia">Sabia : R$60,00 BRL - mensalmente</option>
+    	<option value="Japu">Japu : R$120,00 BRL - mensalmente</option>
+    	<option value="Aguia">Aguia : R$240,00 BRL - mensalmente</option>
+    	<option value="Saira">Saira : R$360,00 BRL - mensalmente</option>
+    </select> </td></tr>
+    </table>
+    <input type="hidden" name="currency_code" value="BRL"/>
+    <input type="image" src="https://www.paypalobjects.com/pt_BR/i/btn/btn_subscribe_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!"/>
+    <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1"/>
+    </form>
+
+    </div>
+
+    <div className="MOBIrestcontainer">
+    <h1>Doação Única</h1>
+    <p>Nem sempre estamos naquela fase de vida em que sabemos o que será do próximo mês, né? A gente do OAMa entende! Neste caso, você pode também colaborar com a realização de nossos projetos com uma doação única, e que você escolhe o quanto e quando. Através da sua doação você está somando com a nossa energia e dedicação para que possamos levar nossos projetos adiante.</p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="WFVJ7JENLY856" />
+<input type="image" src="https://www.paypalobjects.com/pt_BR/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/pt_BR/i/scr/pixel.gif" width="1" height="1"/>
+</form>
+    </div>
+
+    </div>
+
 )
 
 }

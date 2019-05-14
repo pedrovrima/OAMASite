@@ -14,7 +14,7 @@ return(
 <div className="entrypic">
 
 <div className="text">
-<h1>Quem Somos</h1>
+<h1>Equipe OAMa</h1>
 <p className="entrytext">
 Acreditamos que juntos podemos ir mais longe. Por isso o OAMa é formado por um grupo de profissionais de diversas áreas que colaboram com suas especialidades, sem as quais a execução de nossos projetos e atividades seria impossível. Conheça abaixo quem são as pessoas e instituições que fazem do OAMa uma organização que preza pela pluraridade e interdisciplinariedade.</p>
 </div>
@@ -23,7 +23,7 @@ Acreditamos que juntos podemos ir mais longe. Por isso o OAMa é formado por um 
 </div>
 <div className="restcontainer">
 
-            <h1>Diretores OAMa</h1>
+            <h1>Diretores</h1>
 
           <div className="NewequipeGrid">
           <PEquipe classN="NewequipeFols" classN2="equipetext" name="Pedro Martins" text="Ecólogo com interesse em estatística e dinâmica de populações de aves. Após concluir mestrado pelo Instituto Nacional de Pesquisas da Amazônia (INPA), Pedro se juntou ao programa de monitoramento de aves de longo prazo do Observatório de Aves de Klamath, nos EUA, no qual foi certificado treinador pelo Conselho Norte-Americano de Anilhamento."/>

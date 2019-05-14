@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import MediaQuery from 'react-responsive';
 
-class Stuff extends Component {
+class Sobre extends Component {
   render() {
     return (
   <div>
@@ -106,4 +106,4 @@ Sabemos também que sem o apoio da sociedade o conhecimento científico não é 
   }
 }
 
-export default Stuff;
+export default Sobre;
