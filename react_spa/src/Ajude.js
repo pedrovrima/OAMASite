@@ -2,19 +2,40 @@ import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import ReactFullpage from '@fullpage/react-fullpage';
 import { Colab, PEquipe, Amigos } from "./equipe";
+import Loader from 'react-loader';
 
 
 class Ajude extends Component {
+
+  constructor() {
+    super();
+
+    this.state = {
+      isLoaded: true
+    };
+  }
+
+  toggleLoader() {
+    this.setState({ isLoaded: !this.state.isLoaded });
+  }
+
+  renderControl(isLoaded) {
+    let buttonText = isLoaded ? 'Show Loading Spinner' : 'Hide Loading Spinner';
+    return <button onClick={() => this.toggleLoader()}>{buttonText}</button>;
+  }
 
 
 
 
   render() {
+    const { isLoaded } = this.state;
 
 
 
     return (
-<div>
+  <Loader loaded={isLoaded}>
+
+<div className="loaded-contents">
 <div className="ajude">
 <div className="entrypic">
 
@@ -74,6 +95,8 @@ O OAMa é uma iniciativa sem fins lucrativos e independente, que só é viável 
 
     </div>
 </div>
+</Loader>
+
         );
   }
 }
