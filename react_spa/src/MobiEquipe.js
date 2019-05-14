@@ -52,8 +52,13 @@ class MobiEquipe extends Component {
 
           <div className="MOBIcolabGrid">
 
-          <Colab classN="MOBIcolabsFols" name="Jared Wolfe" func="Conselho Científico" link="www.teste.com" />
-          <Colab classN="MOBIcolabsFols" name="Pablo Elizondo" func="Conselho Consultivo" link="www.teste.com" />
+          <Colab classN="MOBIcolabsFols" name="Jared Wolfe" func="Conselho Científico" link="Michigan Institute of Technology" />
+          <Colab classN="MOBIcolabsFols" name="Gonçalo Ferraz" func="Conselho Científico" link="Univ. Federal do Rio Grande do Sul" />
+          <Colab classN="MOBIcolabsFols" name="Pablo Elizondo" func="Conselho Consultivo" link="Costa Rica Bird Observatories" />
+          <Colab classN="MOBIcolabsFols" name="André Luiz Gonçalvez" func="Conselho Consultivo" link="Instituto Federal Catarinense" />
+          <Colab classN="MOBIcolabsFols" name="Luiza Blue" func="Conselho Fiscal" link="" />
+          <Colab classN="MOBIcolabsFols" name="Leonardo Solé" func="Conselho Fiscal" link="" />
+          <Colab classN="MOBIcolabsFols" name="Aline Lopes" func="Conselho Fiscal" link="" />
           </div>
             </div>
           </div>

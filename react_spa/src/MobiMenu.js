@@ -76,7 +76,7 @@ render() {
 
 
           <ul className="menu">
-          <li onClick={this.CloseNav}><NavLink to="/stuff">Stuff</NavLink></li>
+          <li onClick={this.CloseNav}><NavLink to="/sobre">Sobre</NavLink></li>
           <li onClick={this.CloseNav}><NavLink to="/projetos">Projetos</NavLink></li>
           <li onClick={this.CloseNav}><NavLink to="/equipe" >Equipe</NavLink></li>
 

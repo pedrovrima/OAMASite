@@ -1,21 +1,16 @@
 @import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
 html {
-  height: 90%;
   align-content: center;
 
 }
 
 
 body {
-  height: 100%;
   background-color: #F0E3A3;
-  padding-top: 2%;
-  padding-bottom: 2%;
-
+  height: 100%;
   margin: 0;
   overflow-x: hidden;
-
   background-image: url("/figs/padrao.webp");
   background-repeat: repeat;
 }
@@ -34,10 +29,12 @@ h1, h2, p, ul, li {
 }
 .wholesite{
   height: 100%;
-  margin-left: 5em;
+  margin-left: 4vw;
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
+
 
 
 .mobiwholesite{
@@ -54,10 +51,10 @@ h1, h2, p, ul, li {
 
 /* The side navigation menu */
 .sidenav {
-  padding-left: 2%;
+  padding-left: 2vw;
 margin: 0;
  height: 100%; /* 100% Full-height */
- width: 2%; /* 0 width - change this with JavaScript */
+ width: 2vw; /* 0 width - change this with JavaScript */
  position: fixed; /* Stay in place */
  z-index: 1; /* Stay on top */
  top: 0; /* Stay at the top */
@@ -171,7 +168,7 @@ margin-top: 9em;
 height: 5%;
 width: 10%;
  margin-left: .7em;
- margin-top: .7em;
+ margin-top: 1.2vh;
    display: inline-block;
    margin-bottom: 2vh;
 }
@@ -338,16 +335,18 @@ width:100%;
   margin:auto;
   -moz-border-radius: 5%;
   border-radius: 1em;
+  margin-bottom: 10vh;
 }
 
 
 .MOBIrestcontainer{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 75%;
+  width: 85%;
   background-color: #fff6;
   padding: 2%;
-  margin-left: 11.5%;
-  margin-right: 11.5%;
+  margin: auto;
+  margin-bottom: 5vh;
+
   -moz-border-radius: 5%;
   border-radius: 1em;
   height: 45%;
@@ -419,7 +418,7 @@ margin-top: 1vh;
   align-items: center;
   align-content: center;
   width: 100%;
-  height: 100%;
+  height: 90vh;
   display: grid;
   grid-row-gap: 10%;
   grid-column-gap: 3%;
@@ -427,6 +426,7 @@ margin-top: 1vh;
   grid-template-rows: 40% 40%;
   align-items: center;
   text-align: center;
+  margin-top: 5vh
 }
 
 .oqoama{
@@ -662,12 +662,9 @@ vertical-align: bottom;
 
 
 .equipetext{
-  border-radius: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 95%;
   height: 60%;
 
-  background-color: #fff6;
   padding: 9% 5% 5% 5%;
     display: block;
   margin-left: auto;
@@ -846,6 +843,19 @@ vertical-align: bottom;
   grid-row-gap: 5vh;
 }
 
+.NewequipeGrid{
+
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-right: 5%;
+  display: grid;
+  grid-template-columns: (1, 80%);
+  grid-auto-rows: 50%;
+  margin-top: 1%;
+  max-height: 150vh;
+  grid-row-gap: 2vh;
+}
+
 
 
 .MOBIequipetext{
@@ -869,6 +879,15 @@ vertical-align: bottom;
 
 
 
+.NewequipeFols{
+  width:  100%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  float: center;
+}
+
+
+
 
 .MOBIequipeFols img{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -884,6 +903,28 @@ vertical-align: bottom;
 
 }
 
+
+.NewequipeFols img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  height:  auto;
+  max-width: 25%;
+  display:inline;
+  margin-left:-10%;
+  margin-right: 6%;
+  float:left;
+  	shape-outside:circle();
+
+}
+
+
+.NewequipeFols h1{
+  margin-left: 15%;
+  margin-top: -2%;
+  text-align: left;
+  font-size: 140%;
+
+}
 
 
 .MOBIequipeFols h1{
@@ -970,4 +1011,177 @@ vertical-align: bottom;
 
 #myMobinav{
   transition-duration: 1.3s;
+}
+
+
+.entrytext{
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.secondtext{
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  padding-top: 0;
+}
+
+
+.entrytext p::first-letter{
+  font-size: 150%;
+
+
+}
+
+.donationgrid{
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 47.5% 47.5%;
+  grid-gap: 5%;
+  font-size: 1.2rem;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.ajudesec{
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+
+.entrypic{
+  height:100vh;
+  margin-bottom: 5vh;
+
+}
+
+
+.sobreo{
+  background-size: cover;
+  background-image: url("/figs/sobre/entryfoto.jpeg.webp");
+}
+
+.equipe{
+  background-size: cover;
+  background-image: url("/figs/sobre/Quem somos opcao2.JPG.webp");
+
+}
+
+.entrypic .text{
+  position: absolute;
+  bottom: 5vh;
+  margin-left: 2vw;
+
+}
+
+.entrypic .entrytext{
+
+  color: white;
+  width: 55vw;
+  text-shadow: .2rem .2rem .2rem #000;
+  margin-top: 10vh;
+
+}
+.text h1{
+  margin-top: 0;
+  position: absolute;
+  color: white;
+  text-shadow: .2rem .2rem .2rem #000;
+  font-size: 3rem;
+}
+
+.
+
+h1{
+  margin-left: 2vh;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+.piccontain{
+  margin-left: 0%;
+  width: 100%;
+
+}
+
+
+.MOBIrestcontainer .aentrytext{
+  margin-left: 10%;
+  width: 80%;
+  font-size: 1;
+  padding: 0;
+  padding-bottom: 0;
+  text-align: justify;
+}
+
+
+
+.MOBIrestcontainer .asecondtext{
+  margin-left: 5%;
+  width: 90%;
+  font-size: 1;
+  margin-bottom: 1rem;
+  padding: 0;
+  padding-top: 0;
+  text-align: justify;
+}
+
+
+.aentrytext{
+  margin-left: 10%;
+  width: 90%;
+  font-size: 1;
+  padding: 1rem;
+  padding-bottom: 0;
+  text-align: justify;
+}
+
+.asecondtext{
+  margin-left: 5%;
+  width: 90%;
+  font-size: 1;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  padding-top: 0;
+  text-align: justify;
+}
+
+.aentrytext p::first-letter{
+  font-size: 150%;
+
+
+}
+
+.resth1{
+  margin-left: 3%;
+}
+
+.quote{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 10vh;
+}
+.textquote{
+  font-style: italic;
+}
+
+.tittlequote{
+  text-align: right;
+  font-weight: bold;
+  margin: 0;
+}
+
+.authorquote{
+  text-align: right;
+  margin: 0;
+}
+
+.firstWord{
+  font-weight: bold;
 }

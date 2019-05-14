@@ -18,6 +18,7 @@ class Anilhamento extends Component {
     ]
 
     return (
+
       <div className="imgroulette">
 
       <ImageGallery items={images} />

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import MediaQuery from 'react-responsive';
 
-class Stuff extends Component {
+class MobiSobre extends Component {
   render() {
     return (
   <div>
 
-  <div className="sobreo">
+  <div className="MOBIsobreo">
   <div className="entrypic">
 
   <div className="text">
@@ -17,7 +17,7 @@ O Observatório de Aves da Mantiqueira é uma iniciativa independente e sem fins
   </div>
 
   </div>
-  <div className="restcontainer">
+  <div className="MOBIrestcontainer">
 <h1 className="resth1">  Breve histórico</h1>
 <div className="aentrytext">
 <p>
@@ -45,7 +45,7 @@ Desde então, participamos de eventos nacionais e internacionais para apresentar
 
   </div>
 
-  <div className="restcontainer">
+  <div className="MOBIrestcontainer">
   <h1 className="resth1">  Conservação com Ciência
 </h1>
   <div className="aentrytext">
@@ -106,4 +106,4 @@ Sabemos também que sem o apoio da sociedade o conhecimento científico não é 
   }
 }
 
-export default Stuff;
+export default MobiSobre;

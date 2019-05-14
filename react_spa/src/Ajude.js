@@ -4,83 +4,68 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import { Colab, PEquipe, Amigos } from "./equipe";
 
 
+class Ajude extends Component {
 
-const Fullpage = () => (
-  <ReactFullpage
-    render={({ state, fullpageApi }) => {
-      return (
-        <ReactFullpage.Wrapper>
-          <div className="section" id="section1">
-          <div className="headersection">
 
-          <h1 id="section1Header">Quem Somos</h1>
-          <div className="nosizecontainer">
-          <p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
-          </div>
-          </div>
+
+
+  render() {
+
+
+
+    return (
+<div className="ajudesec">
+      <div className="restcontainer">
+      <h1 style={{"text-align":"center", "font-size":"4rem"}}>Ajude o OAMa</h1>
+      <div  className="entrytext">
+      <p>O OAMa é uma iniciativa sem fins lucrativos e independente, que só é viável graças à energia, dedicação e colaboração de pessoas que acreditam que, juntos, podemos fazer diferença.</p>
+      </div>
+      <div  className="secondtext">
+
+<p>Toda doação feita para o OAMa é direcionada para a realização de nossos projetos de pesquisa e de educação. </p>
+<p>Tornando-se um afiliado ou fazendo uma doação para o OAMa você está apoiando a conservação de aves e habitats brasileiros com base em pesquisas científicas. Sua participação será extremamente apreciada pelo OAMa, e nós nos comprometemos em transformar a sua colaboração em pesquisa, conhecimento e conservação!</p>
+    </div>
+    </div>
+    <div className="donationgrid">
+    <div className="restcontainer">
+    <h1>Quero me Associar</h1>
+    <p>Ao se tornar um associado OAMa você está apoiando e fortalecendo nossas atividades mensalmente. Associados são extremamente importantes no nosso modelo de organização independente. Com a sua colaboração regular nós podemos planejar o próximo passo com antecedência, e focar nossos esforços na realização de pesquisa científica de excelência.</p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick"/>
+    <input type="hidden" name="hosted_button_id" value="MJUN3QTEW56DY"/>
+    <table>
+    <tr><td><input type="hidden" name="on0" value="Opções de pagamento"/>Opções de pagamento</td></tr><tr><td><select name="os0">
+    	<option value="Canario">Canario : R$15,00 BRL - mensalmente</option>
+    	<option value="Ticotico">Ticotico : R$30,00 BRL - mensalmente</option>
+    	<option value="Sabia">Sabia : R$60,00 BRL - mensalmente</option>
+    	<option value="Japu">Japu : R$120,00 BRL - mensalmente</option>
+    	<option value="Aguia">Aguia : R$240,00 BRL - mensalmente</option>
+    	<option value="Saira">Saira : R$360,00 BRL - mensalmente</option>
+    </select> </td></tr>
+    </table>
+    <input type="hidden" name="currency_code" value="BRL"/>
+    <input type="image" src="https://www.paypalobjects.com/pt_BR/i/btn/btn_subscribe_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!"/>
+    <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1"/>
+    </form>
+
+    </div>
+
+    <div className="restcontainer">
+    <h1>Doação Única</h1>
+    <p>Nem sempre estamos naquela fase de vida em que sabemos o que será do próximo mês, né? A gente do OAMa entende! Neste caso, você pode também colaborar com a realização de nossos projetos com uma doação única, e que você escolhe o quanto e quando. Através da sua doação você está somando com a nossa energia e dedicação para que possamos levar nossos projetos adiante.</p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="WFVJ7JENLY856" />
+<input type="image" src="https://www.paypalobjects.com/pt_BR/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/pt_BR/i/scr/pixel.gif" width="1" height="1"/>
+</form>
+    </div>
+
+    </div>
 </div>
-          <div className="section">
-            <h1>Equipe OAMa</h1>
-          <div className="dummycontainer">
-
-          <div className="equipeGrid">
-          <PEquipe classN="equipeFols" classN2="equipetext" name="Pedro Martins" text="Ecólogo com interesse em estatística e dinâmica de populações de aves. Após concluir mestrado pelo Instituto Nacional de Pesquisas da Amazônia (INPA), Pedro se juntou ao programa de monitoramento de aves de longo prazo do Observatório de Aves de Klamath, nos EUA, no qual foi certificado treinador pelo Conselho Norte-Americano de Anilhamento."/>
-          <PEquipe classN="equipeFols" classN2="equipetext" name="Raquel Justo" text="Bióloga com mestrado e ênfase em Biologia Animal, especificamente na área de Ornitologia, pela Universidade Federal Rural do Rio de Janeiro. Trabalhando com aves desde 2007, possui ampla experiência em elaboração, execução e coordenação de estudos de impactos ambientais"  />
-          <PEquipe classN="equipeFols" classN2="equipetext" name="Luiza Figueira" text="Bióloga com mestrado em Ecologia pelo Instituto Nacional de Pesquisas da Amazônia (INPA). Trabalha com pesquisa de aves desde 2014, tendo colaborado com diversos projetos, como o Projeto de Dinâmicas Biológicas de Fragmentos Florestais na Amazônia brasileira, o Observatório de Aves da Costa Rica e o Observatório de Aves de Klamath, no Oregon, Estados Unidos."  />
-            </div>
-
-          </div>
-          </div>
-
-          <div className="section">
-
-
-          <h1> Colaboradores </h1>
-          <div className="restcontainer">
-
-          <div className="colabGrid">
-
-          <Colab classN="colabsFols" name="Renata Miwa" func="Designer" link="www.teste.com" />
-          <Colab classN="colabsFols" name="Julia Rodrigues" func="Fotógrafa" link="www.teste.com" />
-          <Colab classN="colabsFols" name="Simone Coimbra" func="Estilista" link="www.teste.com" />
-          <Colab classN="colabsFols" name="Joaquim Mendonça" func="Consultor Botânico" link="www.teste.com" />
-          <Colab classN="colabsFols" name="Dirlene Martins" func="Revisora de Português" link="www.teste.com" />
-          <Colab classN="colabsFols" name="Ellen Campbell" func="Revisora de Inglễs" link="www.teste.com" />
-          <Colab classN="colabsFols" name="Eduardo Schultz" func="Ornitólogo e Fotógrafo" link="www.teste.com" />
-          </div>
-            </div>
-          </div>
-
-
-
-      <div className="section">
-        <h1> Instituições Amigas </h1>
-        <div className="restcontainer">
-
-        <div className="colabGrid">
-        <Amigos classN="colabsFols" name="Observatório de Aves do Instituto Butantã" fig="OAU.jpg" link="https://www.facebook.com/observatoriodeavesibu" />
-        <Amigos classN="colabsFols" name="Observatório de Aves da Costa Rica" fig="CRBO.jpg" link="https://www.costaricabirds.org" />
-        <Amigos classN="colabsFols" name="Observatório de Aves do Klamath" fig="KBO.png" link="https://www.klamathbird.org" />
-        <Amigos classN="colabsFols" name="Mata do Sauá" fig="matadosaua.jpg" link="https://www.instagram.com/matadosaua/" />
-        <Amigos classN=" colabsFols" name="Silo - Arte e Latitude Rural" fig="SILO.png" link="https://www.silo.org.br" />
-
-
-                    </div>
-</div>
-</div>
-        </ReactFullpage.Wrapper>
-      );
-    }}
-  />
-);
-
-class Equipe extends Component {
-render(){
-return(
-    <Fullpage />
-)
-
-}
+        );
+  }
 }
 
-export default Equipe;
+
+export default Ajude;
