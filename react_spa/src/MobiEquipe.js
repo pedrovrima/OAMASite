@@ -75,6 +75,8 @@ class MobiEquipe extends Component {
             <Amigos classN="MOBIcolabsFols" name="Observatório de Aves do Instituto Butantã" fig="OAU.jpg.webp" link="https://www.facebook.com/observatoriodeavesibu" />
             <Amigos classN="MOBIcolabsFols" name="Observatório de Aves da Costa Rica" fig="CRBO.jpg.webp" link="https://www.costaricabirds.org" />
             <Amigos classN="MOBIcolabsFols" name="Observatório de Aves do Klamath" fig="KBO.png.webp" link="https://www.klamathbird.org" />
+            <Amigos classN="MOBIcolabsFols" name="Observatório de Aves da PUC-RS" fig="PUCRS.png.webp" link="http://www.pucrs.br/ima/projetos/observatorio-de-aves/" />
+
             <Amigos classN="MOBIcolabsFols" name="Mata do Sauá" fig="matadosaua.jpg.webp" link="https://www.instagram.com/matadosaua/" />
             <Amigos classN="MOBIcolabsFols" name="Silo - Arte e Latitude Rural" fig="SILO.png.webp" link="https://www.silo.org.br" />
             <Amigos classN=" MOBIcolabsFols" name="Un Poco del Chocó" fig="unpoco.png.webp" link="https://www.unpocodelchoco.com/" />
