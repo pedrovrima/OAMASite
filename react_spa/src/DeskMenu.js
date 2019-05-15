@@ -73,7 +73,7 @@ function  Hamburguer (props) {
 return (
         <div className="header" id="mySidenav" className="sidenav">
         <div className="logohold" onClick={this.MenuCloseFunction}>
-          <NavLink exact to="/"><img className="logo" src="/figs/tt.png.webp"/></NavLink>
+          <NavLink exact to="/"><img className="logo" src="/figs/tt.png.webp.png"/></NavLink>
           </div>
           <ul className="menu">
 

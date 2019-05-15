@@ -7,59 +7,59 @@ class Anilhamento extends Component {
 
     const images = [
       {
-        original: '/figs/anilhamento/BASCUL1D.JPG.webp',
-        thumbnail: '/figs/anilhamento/BASCUL1D.JPG.webp',
-      },
-      {
-        original: '/figs/anilhamento/BASCUL1I.JPG.webp',
-        thumbnail: '/figs/anilhamento/BASCUL1I.JPG.webp',
+        original: '/figs/anilhamento/BASCUL1I.JPG.webp.png',
+        thumbnail: '/figs/anilhamento/BASCUL1I.JPG.webp.png',
       },
 {
-      original: '/figs/anilhamento/MYIATR1G.JPG.webp',
-      thumbnail: '/figs/anilhamento/MYIATR1G.JPG.webp',
+      original: '/figs/anilhamento/MYIATR1G.JPG.webp.png',
+      thumbnail: '/figs/anilhamento/MYIATR1G.JPG.webp.png',
 },
 {
-      original: '/figs/anilhamento/PLAMYS1A.JPG.webp',
-      thumbnail: '/figs/anilhamento/PLAMYS1A.JPG.webp',
+      original: '/figs/anilhamento/PLAMYS1A.JPG.webp.png',
+      thumbnail: '/figs/anilhamento/PLAMYS1A.JPG.webp.png',
 },
 {
-      original: '/figs/anilhamento/PLAMYS1D.JPG.webp',
-      thumbnail: '/figs/anilhamento/PLAMYS1D.JPG.webp',
+      original: '/figs/anilhamento/PLAMYS1D.JPG.webp.png',
+      thumbnail: '/figs/anilhamento/PLAMYS1D.JPG.webp.png',
 },
 {
-      original: '/figs/anilhamento/PLAMYS1E.JPG.webp',
-      thumbnail: '/figs/anilhamento/PLAMYS1E.JPG.webp',
+      original: '/figs/anilhamento/PLAMYS1E.JPG.webp.png',
+      thumbnail: '/figs/anilhamento/PLAMYS1E.JPG.webp.png',
 },
 {
-      original: '/figs/anilhamento/PLAMYS1H.JPG.webp',
-      thumbnail: '/figs/anilhamento/PLAMYS1H.JPG.webp',
+      original: '/figs/anilhamento/PLAMYS1H.JPG.webp.png',
+      thumbnail: '/figs/anilhamento/PLAMYS1H.JPG.webp.png',
 },
 {
-      original: '/figs/anilhamento/TACCOR1C.JPG.webp',
-      thumbnail: '/figs/anilhamento/TACCOR1C.JPG.webp',
+      original: '/figs/anilhamento/TACCOR1C.JPG.webp.png',
+      thumbnail: '/figs/anilhamento/TACCOR1C.JPG.webp.png',
 },
 
 {
-      original: '/figs/anilhamento/TACCOR1J.JPG.webp',
-      thumbnail: '/figs/anilhamento/TACCOR1J.JPG.webp',
+      original: '/figs/anilhamento/TACCOR1J.JPG.webp.png',
+      thumbnail: '/figs/anilhamento/TACCOR1J.JPG.webp.png',
 },
 {
-      original: '/figs/anilhamento/THAFUR1B.JPG.webp',
-      thumbnail: '/figs/anilhamento/THAFUR1B.JPG.webp',
+      original: '/figs/anilhamento/THAFUR1B.JPG.webp.png',
+      thumbnail: '/figs/anilhamento/THAFUR1B.JPG.webp.png',
 },
 {
-      original: '/figs/anilhamento/THAFUR1G.JPG.webp',
-      thumbnail: '/figs/anilhamento/THAFUR1G.JPG.webp',
+      original: '/figs/anilhamento/THAFUR1G.JPG.webp.png',
+      thumbnail: '/figs/anilhamento/THAFUR1G.JPG.webp.png',
 },
 {
-      original: '/figs/anilhamento/TRIMEL3L.JPG.webp',
-      thumbnail: '/figs/anilhamento/TRIMEL3F.JPG.webp',
+      original: '/figs/anilhamento/TRIMEL3L.JPG.webp.png',
+      thumbnail: '/figs/anilhamento/TRIMEL3F.JPG.webp.png',
 },
 {
-      original: '/figs/anilhamento/TACCOR1L.JPG.webp',
-      thumbnail: '/figs/anilhamento/TACCOR1L.JPG.webp',
+      original: '/figs/anilhamento/TACCOR1L.JPG.webp.png',
+      thumbnail: '/figs/anilhamento/TACCOR1L.JPG.webp.png',
 },
 
+{
+  original: '/figs/anilhamento/BASCUL1D.JPG.webp.png',
+  thumbnail: '/figs/anilhamento/BASCUL1D.JPG.webp.png',
+},
 
 
 
@@ -73,7 +73,7 @@ class Anilhamento extends Component {
       <div className="text">
       <h1>Por que anilhamos aves?</h1>
       <p className="entrytext">
-      O anilhamento de aves é o método em que aves são capturadas e marcadas para estudos científicos. Veja abaixo como o OAMa usa essa técnica para promover a conservação de aves na serra da Mantiqueira.
+      O anilhamento de aves é o método pelo qual aves são capturadas e marcadas para estudos científicos. Veja abaixo como o OAMa usa essa técnica para promover a conservação de aves na serra da Mantiqueira.
       </p>
       </div>
       </div>
@@ -84,7 +84,8 @@ class Anilhamento extends Component {
     </h1>
       <div className="aentrytext">
       <p>
-      O anilhamento de aves é um método utilizado no mundo inteiro para estudos em que a identificação do indivíduo é necessária. Alguns exemplos são estimativas de tamanho populacional, de sobrevivência, estudos de movimentação, comportamento, variação intraespecífica, prevalência de doenças e parasitismo em aves entre outras.
+      O anilhamento de aves é um método utilizado no mundo inteiro em estudos nos quais a identificação do indivíduo é necessária. Alguns exemplos são estimativas de tamanho populacional, de sobrevivência, estudos de movimentação, comportamento, variação intraespecífica, prevalência de doenças e parasitismo em aves, dentre outras.
+
     </p>
     </div>
     <div className="asecondtext">

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
 function FigPath(name){
-  return "/figs/" + name + ".png.webp"
+  return "/figs/people/" + name + ".png.webp.png"
 }
 
 
 function AmiFigPath(name){
-  return "/figs/" + name
+  return "/figs/people/" + name
 }
 
 

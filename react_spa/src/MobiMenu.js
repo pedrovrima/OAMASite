@@ -76,7 +76,7 @@ render() {
   return (
         <div className="header" id="myMobinav" className="mobinav">
         <div className="Mobilogohold">
-          <NavLink onClick={this.MenuCloseFunction} onClick={() => window.scrollTo(0, 0)} exact to="/"><img className="mobilogo" src="/figs/tt.png.webp"/></NavLink>
+          <NavLink onClick={this.MenuCloseFunction} onClick={() => window.scrollTo(0, 0)} exact to="/"><img className="mobilogo" src="/figs/tt.png.webp.png"/></NavLink>
           <Hamburguer Click={this.triggerClick} sym={String.fromCharCode(this.state.hamSym)}/>
 
           </div>

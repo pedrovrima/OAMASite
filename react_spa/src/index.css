@@ -11,7 +11,7 @@ body {
   height: 100%;
   margin: 0;
   overflow-x: hidden;
-  background-image: url("/figs/padrao.webp");
+  background-image: url("/figs/padrao.webp.png");
   background-repeat: repeat;
 }
 
@@ -151,15 +151,13 @@ margin-top: 30vh;
   height: .5em;
   position: absolute;
  top: 1em;
- right: 0;
- margin-left: 5em;
-
+ right: .1vw;
 
 }
 
 .logohold .logo {
 
-  width: 3em;
+  width: 3vw;
   height: auto;
 
 }
@@ -189,7 +187,7 @@ width: 10%;
 }
 
 .sidenav .menu {
-  width: 15vw;
+width: 15vw;
 position: absolute;
 top: 1em;
 right: 4vw;
@@ -197,10 +195,12 @@ right: 4vw;
 }
 
 .deskhamburger{
+  margin:auto;
   position: absolute;
-  right:.1vw;
+  right:.5vw;
   top:25vh;
-  font-size: 3rem;
+  width: 1vw;
+
 }
 
 #main{
@@ -249,11 +249,10 @@ width:100%;
 }
 
 #heart {
-  margin-left: 5.4em;
   display: inline-block;
   position: absolute;
-  right:-3vw;
-  width: 1.7em;
+  left: 18.2vw;
+  width: 1vw;
   height: 1em ;
   animation: heartbeat 10s infinite;
 }
@@ -497,7 +496,7 @@ margin-top: 1vh;
   grid-row-end: 2;
   grid-column-start: 2;
   grid-column-end: 3;
-  background-image: url("/figs/porquenilhar.png.webp");
+  background-image: url("/figs/porquenilhar.png.webp.png");
   background-size: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -515,7 +514,7 @@ margin-top: 1vh;
   border-radius: 2rem;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-image: url("/figs/porquenilhar.png.webp");
+  background-image: url("/figs/porquenilhar.png.webp.png");
   background-size: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -570,7 +569,7 @@ vertical-align: bottom;
   grid-column-start: 2;
   grid-column-end: 3;
   border-radius: 2rem;
-  background-image: url("/figs/Queraju.webp");
+  background-image: url("/figs/Queraju.webp.png");
   background-size: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -606,7 +605,7 @@ vertical-align: bottom;
   margin-left: 2vw;
   margin-right: 3vw;
   margin-bottom: 5vh;
-  background-image: url("/figs/Queraju.webp");
+  background-image: url("/figs/Queraju.webp.png");
 
 
 }
@@ -1093,44 +1092,44 @@ vertical-align: bottom;
 
 .ajude{
   background-size: cover;
-  background-image: url("/figs/sobre/Ajude.png.webp");
+  background-image: url("/figs/top/Ajude.png.webp.png");
 }
 
 
 .MOBIajude{
   background-size: cover;
-  background-image: url("/figs/sobre/MOBIAjude.png.webp");
+  background-image: url("/figs/mobi/MOBIAjude.png.webp.png");
 }
 
 .sobreo{
   background-size: cover;
-  background-image: url("/figs/sobre/Sobre.png.webp");
+  background-image: url("/figs/top/Sobre.png.webp.png");
 }
 
 .MOBIsobreo{
   background-size: cover;
-  background-image: url("/figs/sobre/MOBIsobre.png.webp");
+  background-image: url("/figs/mobi/MOBIsobre.png.webp.png");
 }
 
 .MOBIequipe{
   background-size: cover;
-  background-image: url("/figs/sobre/MOBIquemsomos.png.webp");
+  background-image: url("/figs/mobi/MOBIquemsomos.png.webp.png");
 }
 
 .equipe{
   background-size: cover;
-  background-image: url("/figs/sobre/Quem somos opcao2.JPG.webp");
+  background-image: url("/figs/top/Quem somos opcao2.JPG.webp.png");
 
 }
 
 
 .effortSess{
-  background-image: url("/figs/anilhamento/BASCUL1D.JPG.webp");
+  background-image: url("/figs/anilhamento/BASCUL1D.JPG.webp.png");
   background-size: cover;
   }
 
   .MOBIeffortSess{
-    background-image: url("/figs/MobiAnilham.png.webp");
+    background-image: url("/figs/mobi/MobiAnilham.png.webp.png");
 
     background-size: cover;
     }
@@ -1245,7 +1244,7 @@ a{
 }
 
 .resth1{
-  margin-left: 3%;
+  margin-left: 5%;
 }
 
 .quote{
@@ -1270,4 +1269,9 @@ a{
 
 .firstWord{
   font-weight: bold;
+}
+
+
+.firsttext{
+  font-size:1.5rem;
 }

@@ -34,7 +34,7 @@ Em agosto de 2018 inauguramos nossa primeira estação de monitoramento constant
 </p>
 <div className="containpic">
 
-<img className="piccontain" src="/figs/sobre/2 Pesquisadora do OAMa coletando dados durante uma manhã de anilhamento de aves.JPG.webp"></img>
+<img className="piccontain" src="/figs/sobre/2 Pesquisadora do OAMa coletando dados durante uma manhã de anilhamento de aves.JPG.webp.png"></img>
 </div>
 <p>
 Desde então, participamos de eventos nacionais e internacionais para apresentar a organização, falar de ciência, de aves, de conservação e assuntos relacionados. Fomos selecionados em parceria com a Silo – Arte e Latitude Rural no edital Camp 2018 do Instituto Serrapilheira para fazer divulgação científica, e estamos desenvolvendo esse projeto lindão atualmente. Estamos também expandindo nossa área de atuação com o monitoramento constante de aves, estabelecendo novas estações na região da Mantiqueira.
@@ -56,7 +56,7 @@ Desde então, participamos de eventos nacionais e internacionais para apresentar
 
 <div className="containpic">
 
-<img className="piccontain" src="/figs/sobre/arapacu.jpeg.webp"></img>
+<img className="piccontain" src="/figs/sobre/arapacu.jpeg.webp.png"></img>
 
 </div>
 <div className="quote">
@@ -92,7 +92,7 @@ Entre nossas grandes áreas de interesse de pesquisa e estudo estão:
 Sabemos também que sem o apoio da sociedade o conhecimento científico não é suficiente para a conservação da biodiversidade. Por isso, o Observatório de Aves da Mantiqueira segue um modelo inclusivo, buscando integrar a sociedade geral nas nossas atividades e projetos. Um de nossos principais objetivos é fortalecer a conexão entre a sociedade e a ciência, para juntos, promovermos ações para a conservação da natureza.
 
 </p>
-<img className="piccontain" src="/figs/sobre/Quem somos.JPG.webp"></img>
+<img className="piccontain" src="/figs/sobre/Quem somos.JPG.webp.png"></img>
 
 </div>
 
