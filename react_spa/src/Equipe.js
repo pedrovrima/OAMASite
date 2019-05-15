@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
-import ReactFullpage from '@fullpage/react-fullpage';
 import { Colab, PEquipe, Amigos } from "./equipe";
 
 class Equipe extends Component {

@@ -20,6 +20,8 @@ import MobiEquipe from "./MobiEquipe";
 import MobiAjude from "./AjudeMOBI";
 import Ajude from "./Ajude";
 import MobiSobre from "./MobiSobre";
+import MOBIAnilhamento from "./MOBIAnilham";
+
 
 
 
@@ -40,7 +42,7 @@ class Main extends Component {
             <DeskMenu/>
             <div id="main">
             <Route exact path="/" component={Home}/>
-            <Route onClick={() => window.scrollTo(0, 0)} path="/sobre" component={Sobre}/>
+            <Route  path="/sobre" component={Sobre}/>
             <Route path="/equipe" component={Equipe}/>
             <Route path="/anilhamento" component={Anilhamento}/>
             <Route path="/ajude" component={Ajude}/>
@@ -57,7 +59,7 @@ class Main extends Component {
           <Route path="/sobre" component={MobiSobre}/>
           <Route path="/equipe" component={MobiEquipe}/>
           <Route path="/ajude" component={MobiAjude}/>
-          <Route path="/anilhamento" component={Anilhamento}/>
+          <Route path="/anilhamento" component={MOBIAnilhamento}/>
 
 
           </div>

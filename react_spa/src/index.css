@@ -25,7 +25,8 @@ h1, h2, p, ul, li {
 
 .imgroulette{
   margin: auto;
-  max-width: 60%;
+  max-width: 85%;
+  margin-bottom: 5vh;
 }
 .wholesite{
   height: 100%;
@@ -91,7 +92,7 @@ margin: 0;
  padding: .5em .5em .5em 1.5em;
  text-decoration: none;
  font-size: 1em;
- color: #818181;
+ color: #ffff1a;
  display: block;
  transition: 0.3s;
 }
@@ -130,14 +131,14 @@ margin: 0;
   padding: .2em .2em .2em 1.5em;
   text-decoration: none;
   font-size: 1.3em;
-  color: #818181;
+  color: #;
   display: block;
   transition: 0.3s;
  width:10em;
 }
 
 .sidenav ul{
-margin-top: 9em;
+margin-top: 30vh;
 }
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
@@ -188,13 +189,19 @@ width: 10%;
 }
 
 .sidenav .menu {
+  width: 15vw;
 position: absolute;
 top: 1em;
-right: 2.2em;
+right: 4vw;
 
 }
 
-
+#hamb{
+  position: absolute;
+  right:.1vw;
+  top:25vh;
+  font-size: 3rem;
+}
 
 #main{
   transition: margin-left .5s;
@@ -211,7 +218,7 @@ right: 2.2em;
 
 #ajude{
 background-color: #F0A3B0;
-width:100%;
+width:19vw;
 }
 
 @keyframes heartbeat {
@@ -239,6 +246,7 @@ width:100%;
   margin-left: 5.4em;
   display: inline-block;
   position: absolute;
+  right:-3vw;
   width: 1.7em;
   height: 1em ;
   animation: heartbeat 10s infinite;
@@ -491,6 +499,8 @@ margin-top: 1vh;
   align-items: center;
 
 }
+
+
 
 .MOBIeffort{
   padding: 1rem;
@@ -1105,6 +1115,14 @@ vertical-align: bottom;
   background-image: url("/figs/sobre/Quem somos opcao2.JPG.webp");
 
 }
+
+
+.effortSess{
+  background-image: url("/figs/anilhamento/BASCUL1D.JPG.webp");
+  background-size: cover;
+  }
+
+
 
 .entrypic .text{
   position: absolute;
