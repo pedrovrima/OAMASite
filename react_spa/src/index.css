@@ -523,6 +523,7 @@ margin-top: 1vh;
   margin-left: 2vw;
   margin-right: 3vw;
   margin-bottom: 5vh;
+
 }
 
 .effort-content{
@@ -600,7 +601,7 @@ vertical-align: bottom;
   grid-row-end: 3;
   background-size: 100%;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 45% 55%;
   transition: .50s;
   margin-left: 2vw;
   margin-right: 3vw;
@@ -1178,7 +1179,7 @@ vertical-align: bottom;
 
 .MOBIentrypic .MOBItext{
   position: absolute;
-  bottom: 5vh;
+  bottom: 10vh;
 
 }
 

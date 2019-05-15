@@ -21,16 +21,16 @@ class MobiHome extends Component {
           </div>
 
 
-          <NavLink exact to="/anilhamento" className="MOBIeffort">
+          <NavLink onClick={() => window.scrollTo(0, 0)} exact to="/anilhamento" className="MOBIeffort">
 
           <h1>Por que anilhamos aves? </h1>
 
           </NavLink>
 
 
-          <div className="MOBInews">
+          <NavLink onClick={() => window.scrollTo(0, 0)} exact to="/ajude" className="MOBInews">
           <h1>Quer ajudar o OAMa?</h1>
-          </div>
+          </NavLink>
 
 
           </div>
