@@ -14,6 +14,8 @@ class DeskMenu extends Component{
     this.triggerClick = this.triggerClick.bind(this);
     this.OpenNav = this.OpenNav.bind(this);
     this.CloseNav = this.CloseNav.bind(this);
+    this.MenuCloseFunction = this.MenuCloseFunction.bind(this);
+
 
 }
 
@@ -39,7 +41,10 @@ class DeskMenu extends Component{
 
     };
 
-
+    MenuCloseFunction() {
+        this.CloseNav();
+        window.scrollTo(0, 0);
+    };
 
 
       CloseNav() {
@@ -61,21 +66,21 @@ render() {
 
 function  Hamburguer (props) {
   return(
-      <span className="hamburger" id="hamb" onClick={props.Click}>{props.sym}</span>
+      <span className="deskhamburger" id="hamb" onClick={props.Click}>{props.sym}</span>
     )
   };
 
 return (
         <div className="header" id="mySidenav" className="sidenav">
-        <div className="logohold" onClick={() => window.scrollTo(0, 0)} onClick={this.CloseNav}>
+        <div className="logohold" onClick={this.MenuCloseFunction}>
           <NavLink exact to="/"><img className="logo" src="/figs/tt.png.webp"/></NavLink>
           </div>
           <ul className="menu">
 
-          <li onClick={this.CloseNav} onClick={() => window.scrollTo(0, 0)}><NavLink to="/sobre">Sobre</NavLink></li>
-          <li onClick={this.CloseNav} onClick={() => window.scrollTo(0, 0)}><NavLink to="/equipe" >Equipe</NavLink></li>
+          <li onClick={this.MenuCloseFunction}><NavLink to="/sobre">Sobre</NavLink></li>
+          <li onClick={this.MenuCloseFunction}><NavLink to="/equipe" >Equipe</NavLink></li>
 
-          <li id="ajude" onClick={this.CloseNav} onClick={() => window.scrollTo(0, 0)}><NavLink to="/ajude">Ajude
+          <li id="ajude" onClick={this.MenuCloseFunction}><NavLink to="/ajude">Ajude
           <div id="heart"></div>
           </NavLink></li>
 

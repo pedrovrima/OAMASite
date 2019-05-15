@@ -196,7 +196,7 @@ right: 4vw;
 
 }
 
-#hamb{
+.deskhamburger{
   position: absolute;
   right:.1vw;
   top:25vh;
@@ -220,6 +220,12 @@ right: 4vw;
 background-color: #F0A3B0;
 width:19vw;
 }
+
+#mobiajude{
+background-color: #F0A3B0;
+width:100%;
+}
+
 
 @keyframes heartbeat {
   0% {
@@ -1121,6 +1127,12 @@ vertical-align: bottom;
   background-image: url("/figs/anilhamento/BASCUL1D.JPG.webp");
   background-size: cover;
   }
+
+  .MOBIeffortSess{
+    background-image: url("/figs/MobiAnilham.png.webp");
+
+    background-size: cover;
+    }
 
 
 

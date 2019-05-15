@@ -15,6 +15,7 @@ class MobiMenu extends Component{
     this.triggerClick = this.triggerClick.bind(this);
     this.OpenNav = this.OpenNav.bind(this);
     this.CloseNav = this.CloseNav.bind(this);
+    this.MenuCloseFunction=this.MenuCloseFunction.bind(this);
 
 }
 
@@ -43,6 +44,12 @@ triggerClick() {
 
 
 
+  MenuCloseFunction() {
+      this.CloseNav();
+      window.scrollTo(0, 0);
+  };
+
+
 
     CloseNav() {
 
@@ -69,18 +76,17 @@ render() {
   return (
         <div className="header" id="myMobinav" className="mobinav">
         <div className="Mobilogohold">
-          <NavLink onClick={this.CloseNav} onClick={() => window.scrollTo(0, 0)} exact to="/"><img className="mobilogo" src="/figs/tt.png.webp"/></NavLink>
+          <NavLink onClick={this.MenuCloseFunction} onClick={() => window.scrollTo(0, 0)} exact to="/"><img className="mobilogo" src="/figs/tt.png.webp"/></NavLink>
           <Hamburguer Click={this.triggerClick} sym={String.fromCharCode(this.state.hamSym)}/>
 
           </div>
 
 
           <ul className="menu">
-          <li onClick={this.CloseNav} onClick={() => window.scrollTo(0, 0)}><NavLink to="/sobre">Sobre</NavLink></li>
-          <li onClick={this.CloseNav} onClick={() => window.scrollTo(0, 0)}><NavLink to="/projetos">Projetos</NavLink></li>
-          <li onClick={this.CloseNav} onClick={() => window.scrollTo(0, 0)}><NavLink to="/equipe" >Equipe</NavLink></li>
+          <li onClick={this.MenuCloseFunction} ><NavLink to="/sobre">Sobre</NavLink></li>
+          <li onClick={this.MenuCloseFunction}><NavLink to="/equipe" >Equipe</NavLink></li>
 
-          <li id="ajude" onClick={this.CloseNav}><NavLink to="/ajude">Ajude
+          <li id="mobiajude" onClick={this.MenuCloseFunction}><NavLink to="/ajude">Ajude
           <div id="mobiheart"></div>
           </NavLink></li>
 

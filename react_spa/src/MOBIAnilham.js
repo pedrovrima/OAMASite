@@ -67,7 +67,7 @@ class MOBIAnilhamento extends Component {
 
     return (
       <div>
-      <div className="effortSess">
+      <div className="MOBIeffortSess">
       <div className="MOBIentrypic">
 
       <div className="MOBItext">
