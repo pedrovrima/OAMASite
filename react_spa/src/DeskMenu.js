@@ -67,15 +67,15 @@ function  Hamburguer (props) {
 
 return (
         <div className="header" id="mySidenav" className="sidenav">
-        <div className="logohold" onClick={this.CloseNav}>
+        <div className="logohold" onClick={() => window.scrollTo(0, 0)} onClick={this.CloseNav}>
           <NavLink exact to="/"><img className="logo" src="/figs/tt.png.webp"/></NavLink>
           </div>
           <ul className="menu">
 
-          <li onClick={this.CloseNav}><NavLink to="/sobre">Sobre</NavLink></li>
-          <li onClick={this.CloseNav}><NavLink to="/equipe" >Equipe</NavLink></li>
+          <li onClick={this.CloseNav} onClick={() => window.scrollTo(0, 0)}><NavLink to="/sobre">Sobre</NavLink></li>
+          <li onClick={this.CloseNav} onClick={() => window.scrollTo(0, 0)}><NavLink to="/equipe" >Equipe</NavLink></li>
 
-          <li id="ajude" onClick={this.CloseNav}><NavLink to="/ajude">Ajude
+          <li id="ajude" onClick={this.CloseNav} onClick={() => window.scrollTo(0, 0)}><NavLink to="/ajude">Ajude
           <div id="heart"></div>
           </NavLink></li>
 

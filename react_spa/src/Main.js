@@ -10,7 +10,6 @@ import {
 } from "react-router-dom";
 import Home from "./Home";
 import Sobre from "./Sobre";
-import Projetos from "./Projetos";
 import Equipe from "./Equipe";
 import Anilhamento from "./Anilham";
 
@@ -41,7 +40,7 @@ class Main extends Component {
             <DeskMenu/>
             <div id="main">
             <Route exact path="/" component={Home}/>
-            <Route path="/sobre" component={Sobre}/>
+            <Route onClick={() => window.scrollTo(0, 0)} path="/sobre" component={Sobre}/>
             <Route path="/equipe" component={Equipe}/>
             <Route path="/anilhamento" component={Anilhamento}/>
             <Route path="/ajude" component={Ajude}/>
