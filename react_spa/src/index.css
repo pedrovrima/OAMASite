@@ -1165,6 +1165,7 @@ vertical-align: bottom;
   position: absolute;
   color: white;
   text-shadow: .2rem .2rem .2rem #000;
+  margin-bottom: 2vh;
 }
 
 .MOBIentrypic .MOBIentrytext{
@@ -1179,7 +1180,7 @@ vertical-align: bottom;
 
 .MOBIentrypic .MOBItext{
   position: absolute;
-  bottom: 10vh;
+  bottom: 5vh;
 
 }
 
