@@ -6,6 +6,7 @@
     "@fullpage/react-fullpage": "^0.1.13",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-favicon": "0.0.16",
     "react-fullpage": "^0.1.19",
     "react-image-gallery": "^0.8.16",
     "react-loader": "^2.4.5",
