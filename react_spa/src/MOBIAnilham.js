@@ -90,7 +90,7 @@ class MOBIAnilhamento extends Component {
     </div>
     <div className="MOBIasecondtext">
     <p>
-    No monitoramento com anilhamento do OAMa usamos redes de neblina como forma de captura, e temos sempre em campo profissionais treinados rigorosamente para realizar a captura, marcação, coleta de dados e liberação das aves de forma segura e ética. Seguimos os princípios de segurança e bem estar da equipe, segurança e bem estar das aves e coleta de dados de qualidade.
+    No monitoramento com anilhamento do OAMa, usamos redes de neblina como forma de captura, e temos sempre em campo profissionais cuidadosamente treinados para realizar a captura, marcação, coleta de dados e liberação das aves de forma segura e ética. Priorizamos os princípios de segurança e bem-estar da equipe, segurança e bem-estar das aves e coleta de dados de qualidade.
 
     </p>
     </div>
@@ -114,8 +114,8 @@ class MOBIAnilhamento extends Component {
 <li>Protuberância cloacal</li>
 <li>Placa de incubação</li>
 <li>Gordura</li>
-<li>Muda de Corpo</li>
-<li>Muda de Asa</li>
+<li>Muda de corpo</li>
+<li>Muda de asa</li>
 <li>Dano de penas primárias</li>
 <li>Penas juvenis retidas</li>
 <li>Limite de muda</li>
@@ -131,7 +131,8 @@ Coletamos também informações para controlar o esforço amostral e as condiç�
 </p>
 <p>
 
-Ficou com qualquer dúvida, quer fazer um comentário ou saber mais sobre nossos dados? Manda um e-mail pra contato@oama.eco.br.
+Ficou com qualquer dúvida, quer fazer um comentário ou saber mais sobre nossos dados? Mande um e-mail pra contato@oama.eco.br.
+
 
     </p>
       </div>

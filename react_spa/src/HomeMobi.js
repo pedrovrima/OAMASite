@@ -29,7 +29,7 @@ class MobiHome extends Component {
 
 
           <NavLink onClick={() => window.scrollTo(0, 0)} exact to="/ajude" className="MOBInews">
-          <h1>Quer ajudar o OAMa?</h1>
+          <h1>Quer apoiar o OAMa?</h1>
           </NavLink>
 
 

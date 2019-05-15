@@ -20,7 +20,7 @@ class Ajude extends Component {
 <div className="entrypic">
 
 <div className="text">
-<h1>Ajude o OAMa</h1>
+<h1>Apoie o OAMa</h1>
 <p className="entrytext">
 O OAMa é uma iniciativa sem fins lucrativos e independente, que só é viável graças à energia, dedicação e colaboração de pessoas que acreditam que, juntos, podemos fazer diferença.</p>
 </div>
@@ -64,7 +64,7 @@ O OAMa é uma iniciativa sem fins lucrativos e independente, que só é viável 
 
     <div className="restcontainer">
     <h1>Doação Única</h1>
-    <p>Nem sempre estamos naquela fase de vida em que sabemos o que será do próximo mês, né? A gente do OAMa entende! Neste caso, você pode também colaborar com a realização de nossos projetos com uma doação única, e que você escolhe o quanto e quando. Através da sua doação você está somando com a nossa energia e dedicação para que possamos levar nossos projetos adiante.</p>
+    <p>Nem sempre estamos naquela fase de vida em que sabemos o que será do próximo mês, né? A gente do OAMa entende! Neste caso, você pode também colaborar com a realização de nossos projetos com uma doação única. e você escolhe o quanto e quando. Através da sua doação você está somando com a nossa energia e dedicação para que possamos levar nossos projetos adiante.</p>
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick" />
 <input type="hidden" name="hosted_button_id" value="WFVJ7JENLY856" />

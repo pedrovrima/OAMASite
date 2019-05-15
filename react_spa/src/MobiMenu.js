@@ -86,7 +86,7 @@ render() {
           <li onClick={this.MenuCloseFunction} ><NavLink to="/sobre">Sobre</NavLink></li>
           <li onClick={this.MenuCloseFunction}><NavLink to="/equipe" >Equipe</NavLink></li>
 
-          <li id="mobiajude" onClick={this.MenuCloseFunction}><NavLink to="/ajude">Ajude
+          <li id="mobiajude" onClick={this.MenuCloseFunction}><NavLink to="/ajude">Apoie
           <div id="mobiheart"></div>
           </NavLink></li>
 

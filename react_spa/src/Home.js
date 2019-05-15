@@ -32,7 +32,7 @@ class Home extends Component {
 
       <NavLink exact to="/ajude" className="news">
 
-      <h1>Quer ajudar o OAMa?</h1>
+      <h1>Quer apoiar o OAMa?</h1>
       </NavLink>
 
       </div>

@@ -80,7 +80,7 @@ return (
           <li onClick={this.MenuCloseFunction}><NavLink to="/sobre">Sobre</NavLink></li>
           <li onClick={this.MenuCloseFunction}><NavLink to="/equipe" >Equipe</NavLink></li>
 
-          <li id="ajude" onClick={this.MenuCloseFunction}><NavLink to="/ajude">Ajude
+          <li id="ajude" onClick={this.MenuCloseFunction}><NavLink to="/ajude">Apoie
           <div id="heart"></div>
           </NavLink></li>
 

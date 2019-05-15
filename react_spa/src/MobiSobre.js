@@ -21,7 +21,8 @@ O Observatório de Aves da Mantiqueira é uma iniciativa independente e sem fins
 <h1 className="resth1">  Breve histórico</h1>
 <div className="aentrytext">
 <p>
-O OAMa é um projeto orgânico, em constante desenvolvimento, que vêm sendo idealizado e planejado a partir de 2017, quando dois de nossos co-fundadores e atuais diretores estavam como pesquisadores visitantes no “Klamath Bird Observatory” (Observatório de Aves de Klamath – KBO), em Oregon, Estados Unidos.</p>
+O OAMa é um projeto orgânico, em constante desenvolvimento, que vem sendo idealizado e planejado desde 2017, quando dois de nossos cofundadores e atuais diretores atuavam como pesquisadores visitantes no “Klamath Bird Observatory” (Observatório de Aves de Klamath – KBO), em Oregon, Estados Unidos.</p>
+
 </div>
 <div  className="asecondtext">
 <p>
@@ -37,7 +38,8 @@ Em agosto de 2018 inauguramos nossa primeira estação de monitoramento constant
 <img className="piccontain" src="/figs/sobre/2 Pesquisadora do OAMa coletando dados durante uma manhã de anilhamento de aves.JPG.webp.png"></img>
 </div>
 <p>
-Desde então, participamos de eventos nacionais e internacionais para apresentar a organização, falar de ciência, de aves, de conservação e assuntos relacionados. Fomos selecionados em parceria com a Silo – Arte e Latitude Rural no edital Camp 2018 do Instituto Serrapilheira para fazer divulgação científica, e estamos desenvolvendo esse projeto lindão atualmente. Estamos também expandindo nossa área de atuação com o monitoramento constante de aves, estabelecendo novas estações na região da Mantiqueira.
+Desde então, participamos de eventos nacionais e internacionais para apresentar a organização, falar de ciência, de aves, de conservação e assuntos relacionados. Fomos selecionados, em parceria com a Silo – Arte e Latitude Rural, no edital Camp 2018 do Instituto Serrapilheira para fazer divulgação científica, e estamos desenvolvendo esse projeto lindão atualmente. Estamos também expandindo nossa área de atuação com o monitoramento constante de aves, estabelecendo novas estações na região da Mantiqueira.
+
 </p>
 
   </div>
@@ -49,7 +51,7 @@ Desde então, participamos de eventos nacionais e internacionais para apresentar
   <h1 className="resth1">  Conservação com Ciência
 </h1>
   <div className="aentrytext">
-  <p> Nosso lema no OAMa é “Conservação com ciência”, por que acreditamos que a melhor maneira de tomar decisões e planejar ações para a conservação da biodiversidade é sob a luz do conhecimento. A pesquisa científica é a ferramenta que usamos para buscar, adquirir e documentar este conhecimento.
+  <p> Nosso lema no OAMa é “Conservação com ciência”, porque acreditamos que a melhor maneira de tomar decisões e planejar ações para a conservação da biodiversidade é sob a luz do conhecimento. A pesquisa científica é a ferramenta que usamos para buscar, adquirir e documentar este conhecimento.
 </p>
 </div>
 <div className="asecondtext">
@@ -78,18 +80,19 @@ Daniel H. Janzen
 Entre nossas grandes áreas de interesse de pesquisa e estudo estão:
 </p>
 <p>
-<span className="firstWord">DIVERSIDADE</span> As aves da Serra da Mantiqueira. Este projeto tem como objetivo aumentar o conhecimento que temos das espécies que ocorrem na região da Serra da Mantiqueira e entender um pouco mais sobre as variações cíclicas e sazonais na ocorrência de espécies.
+<span className="firstWord">DIVERSIDADE</span> As aves da Serra da Mantiqueira. O objetivo deste projeto é aumentar o conhecimento que temos das espécies que ocorrem na região da Serra da Mantiqueira e entender um pouco mais sobre as variações cíclicas e sazonais na ocorrência de espécies.
+
 </p>
 <p>
 <span className="firstWord">HISTÓRIA NATURAL</span> Ciclo de muda das aves locais. Neste projeto estamos focados em estudar e descrever um importante (e pouco estudado nas espécies tropicais) processo biólogico das aves – o ciclo de muda.
 </p>
 <p>
 
-<span className="firstWord">POPULAÇÕES</span> Demografia e dinâmica das populações das aves na Serra da Mantiqueira. Através do monitoramento de longo prazo procuramos estimar taxas de sobrevivência, recaptura, produtividade e crescimento para diversas espécies da avifauna local. Estes parâmetros são essenciais para classificarmos a situação de conservação de cada espécie, e também para entendermos quais são as situações ambientais e temporais que são positivas (crescimento populacional) ou negativas (diminuição populacional) para cada espécie.
+<span className="firstWord">POPULAÇÕES</span> Demografia e dinâmica das populações das aves na Serra da Mantiqueira. Através do monitoramento de longo prazo procuramos estimar taxas de sobrevivência, recaptura, produtividade e crescimento para diversas espécies da avifauna local. Estes parâmetros são essenciais para classificarmos a situação de conservação de cada espécie, e também para entendermos quais situações ambientais e temporais são positivas (crescimento populacional) ou negativas (diminuição populacional) para cada espécie.
 </p>
 <p>
 
-Sabemos também que sem o apoio da sociedade o conhecimento científico não é suficiente para a conservação da biodiversidade. Por isso, o Observatório de Aves da Mantiqueira segue um modelo inclusivo, buscando integrar a sociedade geral nas nossas atividades e projetos. Um de nossos principais objetivos é fortalecer a conexão entre a sociedade e a ciência, para juntos, promovermos ações para a conservação da natureza.
+Sabemos também que, sem o apoio da sociedade, o conhecimento científico não é suficiente para a conservação da biodiversidade. Por isso, o Observatório de Aves da Mantiqueira segue um modelo inclusivo, buscando integrar a sociedade geral nas nossas atividades e projetos. Um de nossos principais objetivos é fortalecer a conexão entre a sociedade e a ciência, para, juntos, promovermos ações para a conservação da natureza.
 
 </p>
 <img className="piccontain" src="/figs/sobre/Quem somos.JPG.webp.png"></img>

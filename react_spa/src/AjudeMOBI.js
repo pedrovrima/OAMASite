@@ -11,7 +11,7 @@ return(
       <div className="MOBIentrypic">
 
       <div className="MOBItext">
-      <h1>Ajude o OAMa</h1>
+      <h1>Apoie o OAMa</h1>
       <p className="MOBIentrytext">
 Toda doação feita para o OAMa é direcionada para a realização de nossos projetos de pesquisa e de educação. </p>
 </div>
